@@ -14,10 +14,9 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
+Look at the images located in the folders corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as a middle ground for Chunk + Extra.
 
-I will embed the images later for now refer to the screenshots in the folders...
-
-NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes.
+NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes in my screenshot.
 
 # Audio
 Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
