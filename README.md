@@ -19,6 +19,7 @@ I will embed the images later for now refer to the screenshots in the folders...
 
 NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes.
 
+# Audio
 Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
 
 What to pick
@@ -44,8 +45,15 @@ ONNX models are what you need to actually use your GPU, so you are going to have
 
 Note: during sound testing if switching to MME didnt work just go to client mode like i said it was your saving grace, but you would only choose your input and output device
 
+This is something for everyone that I recommend everyone to do so you can have the cleanest testing : audiodg.exe to priority high and cpu affinity to a single cpu core
+open task manager hit details
+right click audiodg.exe and set whats listed above
+as for the single cpu core make it an even number as thats your real cpu cores, so in my case i use 2 since i dont want it running on cpu 0 just my preference
 
-FINALLY we get to testing, I will tell you audio issues that happen and how to fix them. 
+if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
+
+# FINALLY 
+we get to testing, I will tell you audio issues that happen and how to fix them. 
 
 From using the initial testing if you talk if your voice sounds perfectly clear you can move your chunk to the next smaller size until theres any issue, however for you smelly fucks who have an issue with the voice being choppy, you make your chunk size one larger.
 
@@ -59,3 +67,22 @@ The very first sentence you say will always be fucked somehow so when you change
 
 Finally you can remove the monitoring option if you like what you ended up with, so you dont have to listen to your ai voice anymore, as you are now a proud user of realtime voice with it being consistent.
 
+Now let's make that secret sauce that allows RVC to use less resources, its not by a lot but it still matters.
+we can now delete that original shortcut you have, or don't if you are a rebel.
+
+Open up notepad and paste the next three lines into the file
+
+Set WshShell = CreateObject("WScript.Shell") 
+WshShell.Run chr(34) & "C:\PATH\TO\MMVCServerSIO\start_http.bat" & Chr(34), 0
+Set WshShell = Nothing
+
+change the Path to, parts into the actual path to the start_http.bat file. its different for everyone.
+
+Save this file as a .vbs
+
+What this file does is make that black box that always launches, not show up when you run this. itll save 1% cpu usage but 1% is still something
+Sometimes itll be more depending on how much resources it was using in task manager, for me it was trying to use 30% which now it doesnt use anything.
+
+ONLY do the VBS file if you have everything set up and dont plan on changing anything. this means you have no need to even look at the black box for errors as its already working perfectly for you
+
+# Congratulations you are no longer a soyboy cuck and you have a working setup!
