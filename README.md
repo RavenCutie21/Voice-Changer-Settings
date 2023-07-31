@@ -47,7 +47,7 @@ ONNX models are what you need to actually use your GPU, so you are going to have
 
 Note: during sound testing if switching to MME didnt work just go to client mode like i said it was your saving grace, but you would only choose your input and output device
 
-# Voice Sound like you are being electrofucked by MECHA Himler, then do this
+# Does your Voice Sound like you are being electrofucked by Chinese Pop Rock Candy?
 
 audiodg.exe to priority high and cpu affinity to a single cpu core
 
