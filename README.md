@@ -44,10 +44,12 @@ ONNX models are what you need to actually use your GPU, so you are going to have
 
 Note: during sound testing if switching to MME didnt work just go to client mode like i said it was your saving grace, but you would only choose your input and output device
 
-This is something for everyone that I recommend everyone to do so you can have the cleanest testing : audiodg.exe to priority high and cpu affinity to a single cpu core
+This is something for everyone that I recommend everyone to do so you can have the cleanest testing : 
+audiodg.exe to priority high and cpu affinity to a single cpu core
 open task manager hit details
 right click audiodg.exe and set whats listed above
 as for the single cpu core make it an even number as thats your real cpu cores, so in my case i use 2 since i dont want it running on cpu 0 just my preference
+This gets rid of any potential static happening as you are forcing it only use one core, if its on all cores and its cycling through as it normally does, it produces crackles, static, etc.
 
 if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
 
