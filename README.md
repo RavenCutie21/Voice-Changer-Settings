@@ -22,7 +22,9 @@ NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes in my
 Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
 
 What to pick
+
 Server Mode : this is the option I recommend everyone to pick, it is faster and doesnt try to get reprocessed again
+
 Client Mode : this mode is slower but can be your only hope if server mode just doesnt work for you
 
 Sample Rate: Pick the sample rate of your audio devices in your windows sounds settings, to get there on windows 10 you right click the speakers icon in your task bar and hit sounds, on windows 11 you have to hit sound settings, then scroll to the bottom and hit advanced sound settings which would finally open the same window, overly complicated for no reason Microcuck.
