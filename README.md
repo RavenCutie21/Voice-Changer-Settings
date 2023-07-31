@@ -1,4 +1,4 @@
-# RVC-Settings
+# An Asshole's guide to W-Okada's RealTimeVoiceChangerClient and it's Settings
 Read this if you DO NOT trust me : https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit it is a different guide made my someone else.
 
 
