@@ -77,7 +77,9 @@ we can now delete that original shortcut you have, or don't if you are a rebel.
 Open up notepad and paste the next three lines into the file
 
 Set WshShell = CreateObject("WScript.Shell") 
+
 WshShell.Run chr(34) & "C:\PATH\TO\MMVCServerSIO\start_http.bat" & Chr(34), 0
+
 Set WshShell = Nothing
 
 change the Path to, parts into the actual path to the start_http.bat file. its different for everyone.
