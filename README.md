@@ -1,5 +1,5 @@
 # RVC-Settings
-My settings for W-Okada's Realtime voice changer client.
+Read this if you DO NOT trust me : https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit it is a different guide made my someone else.
 
 
 This is not a one stop shop just my recommendations for what YOU the person reading this should use, depending on your hardware. But FIRST let's get some stuff out of the way
