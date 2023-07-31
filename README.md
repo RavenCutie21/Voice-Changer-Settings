@@ -28,7 +28,7 @@ Client Mode : this mode is slower but can be your only hope if server mode just 
 Sample Rate: Pick the sample rate of your audio devices in your windows sounds settings, to get there on windows 10 you right click the speakers icon in your task bar and hit sounds, on windows 11 you have to hit sound settings, then scroll to the bottom and hit advanced sound settings which would finally open the same window, overly complicated for no reason Microcuck.
 44100 or 48000 are what you want to be using just make both of them match, on your recording and playback device.
 
-You will need to have a Virtual Audio Cable of some sort in a moment,
+You will need to have a Virtual Audio Cable of some sort in a moment
 Input : Choose (Wasapi) on the first dropdown box, if it doesnt work later when you do a sound test you will change this to (MME)
 Second box for input: choose your Microphone, if you dont know what it is, when you were checking your sample rate it would have told you the name of the device.
 
