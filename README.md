@@ -89,7 +89,7 @@ Set WshShell = Nothing
 
 change the Path to, parts into the actual path to the start_http.bat file. its different for everyone.
 
-Save this file as a .vbs
+Save this file as a .vbs (refer to the VBS Image folder to see what the inside of the file will look like)
 
 What this file does is make that black box that always launches, not show up when you run this. itll save 1% cpu usage but 1% is still something
 Sometimes itll be more depending on how much resources it was using in task manager, for me it was trying to use 30% which now it doesnt use anything.
