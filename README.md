@@ -96,4 +96,6 @@ Sometimes itll be more depending on how much resources it was using in task mana
 
 ONLY do the VBS file if you have everything set up and dont plan on changing anything. this means you have no need to even look at the black box for errors as its already working perfectly for you
 
+note: So according to the AI HUB discord you allegedly need to have the file inside of the MMVCServerSIO folder where the start_http.bat file is to make it work
+
 # Congratulations you are no longer a soyboy cuck and you have a working setup!
