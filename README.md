@@ -82,7 +82,7 @@ This gets rid of any potential static happening as you are forcing it only use o
 
 if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
 
-# Special Needs Section for clearing up anything else you might have
+# Special Needs Section for AUDIO
 
 You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list two options
 
