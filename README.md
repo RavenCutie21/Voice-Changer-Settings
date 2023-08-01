@@ -82,6 +82,16 @@ This gets rid of any potential static happening as you are forcing it only use o
 
 if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
 
+# Special Section
+
+You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list two options
+
+NVIDIA Broadcast can work extremely well however on system reboots theres a 50% chance it just breaks your voice changer, the issue was specifically happening to me, if it doesnt for you then thats gucci, if it is though just get the next one.
+
+Steelseries Sonar this is the one I use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
+
+
+
 # FINALLY 
 we get to testing, I will tell you audio issues that happen and how to fix them. 
 
