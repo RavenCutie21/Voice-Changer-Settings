@@ -28,7 +28,7 @@ AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or
 
 for both types of cards you play a little minigame of testing where you want to get as low of a chunk size as you can without any audio issues happening
 
-# BUT ITS NOT USING MY GRAFFICS CARD >:(
+# BUT ITS NOT USING MY GWAFFICS CARD >:(
 FOR You NVIDIA cucks first, CUDA core usage does not appear on Task Manager usage, I can assure you, if you have your GPU selected it is being used.
 
 For You AMD people literally the section before tells you how to make it use your GPU
