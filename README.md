@@ -28,6 +28,17 @@ AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or
 
 for both types of cards you play a little minigame of testing where you want to get as low of a chunk size as you can without any audio issues happening
 
+# BUT ITS NOT USING MY GRAFFICS CARD >:(
+FOR You NVIDIA cucks first, CUDA core usage does not appear on Task Manager usage, I can assure you, if you have your GPU selected it is being used.
+
+For You AMD people literally the section before tells you how to make it use your GPU
+
+But then you fucktards are saying "BUT ITS USING 50% OF MY CPU!@#! AND ONLY 5% OF MY GPU!" that.... is litearlly how it works, if its not using your cpu at all the program wouldnt even be open.
+
+but it isnt supposed to be using half your cpu, which means you are running something too hard usually it is the EXTRA setting. So just.... LOWER IT. 
+
+As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 0% gpu usage, according to Task Manager. You aren't having an issue, thats just how this fucking thing works. cry about it.
+
 # Audio
 Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
 
