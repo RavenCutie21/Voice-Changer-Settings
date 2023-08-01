@@ -14,9 +14,19 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
-Look at the images located in the folders corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as a middle ground for Chunk + Extra.
+
+# Chunk Extra And F.0
+Look at the images located in the folders above corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as the starting point for Chunk + Extra.
+
+but seriously....
+
+NAVIGATE TO THE SCREENSHOT FOLDER IT LITERALLY GIVES YOU ALL OF THESE SETTINGS
 
 NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes in my screenshot.
+
+AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or CREPE_FULL for your gpu to even be used.
+
+for both types of cards you play a little minigame of testing where you want to get as low of a chunk size as you can without any audio issues happening
 
 # Audio
 Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
