@@ -19,6 +19,17 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
+# Export to ONNX button
+
+if pressing this button results in a crash, its actually really easy to fix if you look at the command prompt window, it usually tells you your gpu is out of resources
+
+so the quick easy fix is either 
+
+A) making your chunk and extra a larger value by a significant amount and closing all background processes 
+
+B) just running it on your cpu instead
+
+If it is something else please ask someone else, everything I know goes into this guide.
 
 # Chunk Extra And F.0
 Look at the images located in the folders above corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as the starting point for Chunk + Extra.
