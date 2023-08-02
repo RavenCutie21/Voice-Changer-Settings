@@ -97,8 +97,10 @@ NVIDIA Broadcast can work extremely well however on system reboots theres a 50% 
 
 Steelseries Sonar this is the one I use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
 
+# Super High End GPU Owners I.E. 3060+
+you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
 
-
+the giga 4090 chads can get away with basically anything but i still recommend 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 16k extra is working for me but your extra may be larger, it just will use more resources, think of it as a data cache that makes low latency function without sounding like Joe Biden
 # FINALLY 
 we get to testing, I will tell you audio issues that happen and how to fix them. 
 
