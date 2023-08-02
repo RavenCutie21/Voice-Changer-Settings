@@ -42,7 +42,9 @@ But then you fucktards are saying "BUT ITS USING 50% OF MY CPU!@#! AND ONLY 5% O
 
 but it isnt supposed to be using half your cpu, which means you are running something too hard usually it is the EXTRA setting. So just.... LOWER IT. 
 
-As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 0% gpu usage, according to Task Manager. You aren't having an issue, thats just how this fucking thing works. cry about it.
+As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 0% gpu usage, (from calculations its more like 20% of dedicated vram usage so really its not that bad) according to Task Manager. You aren't having an issue, thats just how this fucking thing works. cry about it.
+
+for intel arc, i have only seen one other person with it so i do not know if this is the case but i believe you just follow amd for this guide
 
 # Audio
 Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
