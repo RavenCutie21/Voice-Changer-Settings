@@ -19,17 +19,6 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
-# Export to ONNX button
-
-if pressing this button results in a crash, its actually really easy to fix if you look at the command prompt window, it usually tells you your gpu is out of resources
-
-so the quick easy fix is either 
-
-A) making your chunk and extra a larger value by a significant amount and closing all background processes 
-
-B) just running it on your cpu instead
-
-If it is something else please ask someone else, everything I know goes into this guide.
 
 # Chunk Extra And F.0
 Look at the images located in the folders above corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as the starting point for Chunk + Extra.
@@ -146,3 +135,48 @@ ONLY do the VBS file if you have everything set up and dont plan on changing any
 note: So according to the AI HUB discord you allegedly need to have the file inside of the MMVCServerSIO folder where the start_http.bat file is to make it work
 
 # Congratulations you are no longer a soyboy cuck and you have a working setup!
+
+
+
+# random extra stuff figured out
+
+if this error appears:
+
+Traceback (most recent call last):
+
+  File "voice_changer\VoiceChanger.py", line 312, in switchModelType
+  
+  File "voice_changer\RVC\RVC.py", line 92, in init
+  
+  File "voice_changer\RVC\RVC.py", line 244, in prepareModel
+  
+  File "voice_changer\RVC\pipeline\PipelineGenerator.py", line 45, in createPipeline\
+  
+UnboundLocalError: local variable 'embedder' referenced before assignment
+
+the fix is allegedly this:
+
+open windows file explorer (Win+E)
+
+press Control+L
+
+type %appdata%
+
+find the folder called "voice-changer-native-client"
+
+delete it which fixes it for some people
+
+obviously you would do so at your own risk
+
+-------------------------------------------------------------------
+
+if pressing the EXPORT to ONNX button results in a crash, its actually really easy to fix if you look at the command prompt window, it usually tells you your gpu is out of resources
+
+so the quick easy fix is either 
+
+A) making your chunk and extra a larger value by a significant amount and closing all background processes 
+
+B) just running it on your cpu instead
+
+If it is something else please ask someone else, everything I know goes into this guide.
+
