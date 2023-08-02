@@ -134,8 +134,8 @@ ONLY do the VBS file if you have everything set up and dont plan on changing any
 
 note: So according to the AI HUB discord you allegedly need to have the file inside of the MMVCServerSIO folder where the start_http.bat file is to make it work
 
-# Congratulations you are no longer a soyboy cuck and you have a working setup!
-
+# Congratulations you are no longer a cuck and you should have a working setup!
+any other stuff you have wrong ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
 
 
 # random extra stuff figured out
