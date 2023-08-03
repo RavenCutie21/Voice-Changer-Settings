@@ -9,6 +9,12 @@ https://software.muzychenko.net/freeware/vac470lite.zip
 
 This is not a one stop shop just my recommendations for what YOU the person reading this should use, depending on your hardware. But FIRST let's get some stuff out of the way
 
+\\\\ DO NOT RUN AS ADMIN JUST BECAUSE ITS NOT WORKING, YOU MORE THAN LIKELY ARE JUST GOING TO RUN INTO MORE ERRORS \\\\ 
+\\\\ RE-EXTRACTING THE INITIAL INSTALL FOLDER AND MOVING IT SO IT REPLACES ALL FILES IN YOUR CURRENT INSTALL FIXES A TON OF ISSUES \\\\ 
+\\\\ IF YOU ARE GETTING ERROR CONNECTION REFUSED ON PORT 18888 DELETING STORED_SETTING.JSON CAN FIX THAT OR JUST RESTART YOUR ROUTER \\\\ 
+\\\\ WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THERES A LOW CHANCE DURING THE SWITCH WHERE IT ACTUALLY JUST DOESNT START \\\\ 
+\\\\ FOR OTHER ERRORS GO TO THE VERY BOTTOM OF THE PAGE I HAVE TWO MORE LISTED \\\\
+
 Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it, we will make a better version of this shortcut later that uses even less resources once everything is 100% working.
 
 IF your GPU is not showing and you have an NVidia Graphics card make sure you have the NVIDIA Cuda Toolkit drivers installed, you can do a google search and find it.
