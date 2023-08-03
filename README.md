@@ -26,6 +26,15 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
 
+# TUNE and the worthless index
+
+Tune is voice dependant so female to male you want a - tune, female to female you ideally dont have to change anything but you might have to depending on how soft your voice is in comparison.
+
+The same can be said for males but its just reversed from above where soft becomes deep
+
+now the truly worthless thing called index, there is ZERO benefit from using this, the only thing you really get is demerits, such as longer processing time, more cpu&gpu usage, lower quality, but if you absoluetely have to because your accent is very strong then that is really unfortunate. You only use the hard values of 0 or 1. 0 being off, and 1 being on. do not use anything in between, it is just not worth it.
+
+
 # Chunk Extra And F.0
 Look at the images located in the folders above corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as the starting point for Chunk + Extra.
 
