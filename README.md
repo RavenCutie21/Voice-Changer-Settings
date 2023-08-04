@@ -32,7 +32,7 @@ Tune is voice dependant so female to male you want a - tune, female to female yo
 
 The same can be said for males but its just reversed from above where soft becomes deep
 
-now the truly worthless thing called index, there is ZERO benefit from using this, the only thing you really get is demerits, such as longer processing time, more cpu&gpu usage, lower quality, but if you absoluetely have to because your accent is very strong then that is really unfortunate. You only use the hard values of 0 or 1. 0 being off, and 1 being on. do not use anything in between, it is just not worth it.
+now the truly worthless thing called index, there is ZERO benefit from using this, the only thing you really get is demerits, such as longer processing time, more cpu&gpu usage, lower quality, but if you absoluetely have to because your accent is very strong then that is really unfortunate as it does use significantly more resources. You only use the hard values of 0 or 1. 0 being off, and 1 being on. do not use anything in between, it really doesn't effect it by much unless its a hard value.
 
 
 # Chunk Extra And F.0
