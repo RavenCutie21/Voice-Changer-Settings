@@ -15,6 +15,8 @@ This is not a one stop shop just my recommendations for what YOU the person read
 \\\\ WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THERES A LOW CHANCE DURING THE SWITCH WHERE IT ACTUALLY JUST DOESNT START \\\\ 
 \\\\ FOR OTHER ERRORS GO TO THE VERY BOTTOM OF THE PAGE I HAVE TWO MORE LISTED \\\\
 
+
+
 Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it, we will make a better version of this shortcut later that uses even less resources once everything is 100% working.
 
 IF your GPU is not showing and you have an NVidia Graphics card make sure you have the NVIDIA Cuda Toolkit drivers installed, you can do a google search and find it.
@@ -26,7 +28,7 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
 
-# TUNE and the worthless index
+# TUNE and the semi-worthless index
 
 Tune is voice dependant so female to male you want a - tune, female to female you ideally dont have to change anything but you might have to depending on how soft your voice is in comparison.
 
@@ -116,6 +118,12 @@ Steelseries Sonar this is the one I use, has Clearcast built into it which is a 
 you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
 
 the giga 4090 chads can get away with basically anything but i still recommend 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 16k extra is working for me but your extra may be larger, it just will use more resources, think of it as a data cache that makes low latency function without sounding like Joe Biden
+
+# special model section
+yes it is possible to delete models, however not in the UI, you have to navigate to the folder called MODEL_DIR where your start_http.bat file is located, the mini sub folders inside of it starting from 0 ending at 199 (if you use the 200th slot 199 will appear) can just be deleted to remove a model. 
+
+they will automatically remake themselves when you add a model in a slot that doesnt have a folder.
+
 # FINALLY 
 we get to testing, I will tell you audio issues that happen and how to fix them. 
 
