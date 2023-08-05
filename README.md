@@ -174,6 +174,7 @@ UNDERVOLTING sounds scary but it isnt. it reduces temp and can get you more perf
 
 but the quick explanation is use msi after burner, look up what your reference base clocks are, and lower your core clock down while looking at the curve editor until it hits that clock, then at around 950voltage which seems to work for 90% of cards you raise it back up to your boost speeds, obviously you want to know what those are too. 
 
+i do cap my fps anyways obviously if you are running unlimited there will be some drops, but im running no drops now while before i was from the same cap i had set previously.
 
 # random error stuff figured out
 
