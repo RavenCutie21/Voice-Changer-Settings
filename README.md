@@ -79,7 +79,7 @@ Sample Rate: Pick the sample rate of your audio devices in your windows sounds s
 
 You will need to have a Virtual Audio Cable of some sort in a moment.
 
-JUST NOTE when installing a virtual cable it will change your defaults for your window sounds settings, so you have to open the sounds panel and reselect your defaults back to your mic and headphones
+When installing a virtual cable it will change your defaults for your window sounds settings, so you have to open the sounds panel and reselect your defaults back to your mic and headphones, hence why the one i recommended is still even better as itll offer to open it immediately.
 
 Input : Choose (Wasapi) on the first dropdown box, if it doesnt work later when you do a sound test you will change this to (MME)
 Second box for input: choose your Microphone, if you dont know what it is, when you were checking your sample rate it would have told you the name of the device.
