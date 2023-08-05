@@ -42,7 +42,7 @@ Look at the images located in the folders above corresponding to what you have, 
 
 but seriously....
 
-NAVIGATE TO THE SCREENSHOT FOLDER IT LITERALLY GIVES YOU ALL OF THESE SETTINGS
+NAVIGATE TO THE SCREENSHOT FOLDER IT LITERALLY GIVES YOU ALL OF THESE SETTINGS, F0 now has a folder explaining what each thing does in chart format.
 
 NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes in my screenshot.
 
