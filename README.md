@@ -207,5 +207,16 @@ A) making your chunk and extra a larger value by a significant amount and closin
 
 B) just running it on your cpu instead
 
+-------------------------------------------------------------------
+
+PIPELINE NOT INITIALIZED
+
+Two Fixes are as follows
+
+A) Third party antivirus can conflict and cause it to not start or
+
+B) The more Likely one is the path to the file is too long, either put it on the root of your drive or directly on your desktop
+
+
 If it is something else please ask someone else, everything I know goes into this guide.
 
