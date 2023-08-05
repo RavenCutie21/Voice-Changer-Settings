@@ -168,6 +168,12 @@ note: So according to the AI HUB discord you allegedly need to have the file ins
 # Congratulations you are no longer a cuck and you should have a working setup!
 any other stuff you have wrong ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
 
+# this section is just a general tip you dont have to do this AT ALL but it has removed any fps drops for me
+
+UNDERVOLTING sounds scary but it isnt. it reduces temp and can get you more performance out of your card. read an actual guide on how to do it
+
+but the quick explanation is use msi after burner, look up what your reference base clocks are, and lower your core clock down while looking at the curve editor until it hits that clock, then at around 950voltage which seems to work for 90% of cards you raise it back up to your boost speeds, obviously you want to know what those are too. 
+
 
 # random error stuff figured out
 
