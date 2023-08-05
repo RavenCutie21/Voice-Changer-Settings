@@ -169,7 +169,7 @@ note: So according to the AI HUB discord you allegedly need to have the file ins
 any other stuff you have wrong ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
 
 
-# random extra stuff figured out
+# random error stuff figured out
 
 if this error appears:
 
