@@ -115,8 +115,9 @@ Your virtal audio cable, the one you selected as output above^
 
 your output device does not change at all it stays your normal headphones or speakers
 
+---------------------------------------------------
 
-Now one last statement for you AMD folks,
+AMD folks, 
 ONNX models are what you need to actually use your GPU, so you are going to have to convert your model to ONNX if you cant, cry. or make someone else do it for you. I certainly wont.
 
 Note: during sound testing if switching to MME didnt work just go to client mode like i said it was your saving grace, but you would only choose your input and output device
