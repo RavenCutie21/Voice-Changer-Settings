@@ -1,16 +1,17 @@
 # A funny guide to W-Okada's RealTimeVoiceChangerClient and it's Settings, if your feelings get hurt easily cry about it.
+This guide is written by: [YunaOneeChan](https://discord.com/users/824922747423031359)
+
+# Other Links
 Pinned Guide in the AI Hub server #help-voice-changer channel : https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit 
 Antasma's issues and fixes page : https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub
 
-This guide is written by: [YunaOneeChan](https://discord.com/users/824922747423031359)
 
+# basic rundown
 Make sure to read the guide fully as i do have some error fixes randomly thrown about but most of it is at the very bottom for the serious ones
 
-~~I have to add this since the guide above removed this for whatever reason~~ IT HAS BEEN ADDED BACK BUT JUST IN CASE IT STAYS HERE
+virtual cable i recommend but at the end of the day it doesnt matter
+[VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable runs better than the one by SHITMEETER (great hatred to stuff that lowers quality for no reason) and you dont even have to change any settings, it has lower latency and a better audio quality right out of the box
 
-VAC (Virtual-Audio-Cable by Muzychenko) - this virtual cable runs better than the one by SHITMEETER and you dont even have to change any settings, it has lower latency and a better audio quality
-
-https://software.muzychenko.net/freeware/vac470lite.zip
 
 This is not a one stop shop just my recommendations for what YOU the person reading this should use, depending on your hardware. But FIRST let's get some stuff out of the way
 
@@ -21,11 +22,11 @@ This is not a one stop shop just my recommendations for what YOU the person read
 \\\\ FOR OTHER ERRORS GO TO THE VERY BOTTOM OF THE PAGE I HAVE TWO MORE LISTED \\\\
 
 ------------------
-V12 of W-Okada's software is actually really good.
+V12 of W-Okada's software has some nice features now
 
 A) Passthrough which means you can just leave your mic on your virtual audio cable, and send your normal voice through it if you turn passthrough (red)
 
-B) Monitoring now has a use on server mode, if you do want to hear yourself and dont want to throw off your word timing, set the gain now conveniently below monitoring down to like 0.1 you want it very very subtle.
+B) Monitoring now has a use on server mode, and it also appears in client mode, if you do want to hear yourself and dont want to throw off your word timing, set the gain now conveniently below monitoring down to like 0.3 you want it very very subtle.
 
 ------------------
 
@@ -110,7 +111,7 @@ Output : Make sure the first drop down matches the same as what you had from Inp
 Now heres where having a Virtual Audio Cable Matters, this is where you would choose your Virtual Audio Cable.
 
 Monitor : Same thing with the first drop down box as previously stated
-Pick your headphones on this for initial testing.
+Pick your headphones on this if you want to listen to it
 
 
 ---------------------------------------------------
@@ -145,7 +146,7 @@ your output device does not change at all it stays your normal headphones or spe
 
 wow that was easy wasnt it!
 
-# Special Needs Section for AUDIO
+# Special Fix Section for Audio
 
 You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list two options
 
@@ -200,8 +201,8 @@ ONLY do the VBS file if you have everything set up and dont plan on changing any
 
 note: So according to the AI HUB discord you allegedly need to have the file inside of the MMVCServerSIO folder where the start_http.bat file is to make it work
 
-# Congratulations you are no longer a cuck and you should have a working setup!
-any other stuff you have wrong ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
+# Congratulations you should have a working setup!
+any other stuff you have issues with ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
 
 # this section is just a general tip you dont have to do this AT ALL but it has removed any fps drops for me
 
