@@ -7,22 +7,31 @@ This guide is written by: [YunaOneeChan](https://discord.com/users/8249227474230
 [Antasma's issues and fixes page](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
 
-# basic rundown
-Make sure to read the guide fully as i do have some error fixes randomly thrown about but most of it is at the very bottom for the serious ones
+# basics
+Make sure to read the guide fully
 
 virtual cable i recommend but at the end of the day it doesnt matter
 [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable runs better than the one by SHITMEETER (great hatred to stuff that lowers quality for no reason) and you dont even have to change any settings, it has lower latency and a better audio quality right out of the box
 
 
-This is not a one stop shop just my recommendations for what YOU the person reading this should use, depending on your hardware. But FIRST let's get some stuff out of the way
+------------------
 
-\\\\ DO NOT RUN AS ADMIN JUST BECAUSE ITS NOT WORKING, YOU MORE THAN LIKELY ARE JUST GOING TO RUN INTO MORE ERRORS \\\\ 
-\\\\ RE-EXTRACTING THE INITIAL INSTALL FOLDER AND MOVING IT SO IT REPLACES ALL FILES IN YOUR CURRENT INSTALL FIXES A TON OF ISSUES \\\\ 
-\\\\ IF YOU ARE GETTING ERROR CONNECTION REFUSED ON PORT 18888 DELETING STORED_SETTING.JSON CAN FIX THAT OR JUST RESTART YOUR ROUTER \\\\ 
-\\\\ WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THERES A LOW CHANCE DURING THE SWITCH WHERE IT ACTUALLY JUST DOESNT START \\\\ 
-\\\\ FOR OTHER ERRORS GO TO THE VERY BOTTOM OF THE PAGE I HAVE TWO MORE LISTED \\\\
+DO NOT RUN AS ADMIN JUST BECAUSE ITS NOT WORKING, YOU MORE THAN LIKELY ARE JUST GOING TO RUN INTO MORE ERRORS
 
 ------------------
+
+RE-EXTRACTING THE INITIAL INSTALL FOLDER AND MOVING IT SO IT REPLACES ALL FILES IN YOUR CURRENT INSTALL FIXES A TON OF ISSUES
+
+------------------
+
+IF YOU ARE GETTING ERROR CONNECTION REFUSED ON PORT 18888 DELETING STORED_SETTING.JSON CAN FIX THAT OR JUST RESTART YOUR ROUTER
+
+------------------
+
+WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THERES A LOW CHANCE DURING THE SWITCH WHERE IT ACTUALLY JUST DOESNT START
+
+------------------
+
 V12 of W-Okada's software has some nice features now
 
 A) Passthrough which means you can just leave your mic on your virtual audio cable, and send your normal voice through it if you turn passthrough (red)
@@ -55,7 +64,6 @@ That number listed is what you would select inside of W-Okada's client to use yo
 
 
 # TUNE and the semi-worthless index
-
 Tune is voice dependant so female to male you want a - tune, female to female you ideally dont have to change anything but you might have to depending on how soft your voice is in comparison.
 
 The same can be said for males but its just reversed from above where soft becomes deep
@@ -77,15 +85,15 @@ AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or
 for both types of cards you play a little minigame of testing where you want to get as low of a chunk size as you can without any audio issues happening
 
 # BUT ITS NOT USING MY GWAFFICS CARD >:(
-FOR You NVIDIA cucks first, CUDA core usage does not appear on Task Manager usage, I can assure you, if you have your GPU selected it is being used.
+FOR You NVIDIA users first, CUDA core usage does not appear on Task Manager usage, if you have your GPU selected it is being used.
 
-For You AMD people literally the section before tells you how to make it use your GPU
+For You AMD people the section before this explains how to make it use your gpu, reread it
 
-But then you fucktards are saying "BUT ITS USING 50% OF MY CPU!@#! AND ONLY 5% OF MY GPU!" that.... is litearlly how it works, if its not using your cpu at all the program wouldnt even be open.
+"BUT ITS USING 50% OF MY CPU!@#! AND ONLY 5% OF MY GPU!" that.... is litearlly how it works, if its not using your cpu at all the program wouldnt even be open.
 
 but it isnt supposed to be using half your cpu, which means you are running something too hard usually it is the EXTRA setting. So just.... LOWER IT. 
 
-As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 0% gpu usage, (from calculations its more like 20% of dedicated vram usage so really its not that bad) according to Task Manager. You aren't having an issue, thats just how this fucking thing works. cry about it.
+As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 30% gpu usage
 
 for intel arc, i have only seen one other person with it so i do not know if this is the case but i believe you just follow amd for this guide
 
@@ -163,6 +171,8 @@ it is still case by case but as long as you did everything above even the audiod
 the giga 4090 chads can get away with basically anything but i still recommend 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 16k extra is working for me but your extra may be larger, it just will use more resources, think of it as a data cache that makes low latency function without sounding like Joe Biden
 
 # model section
+replacing a model does not delete it
+
 yes it is possible to delete models, however not in the UI, you have to navigate to the folder called MODEL_DIR where your start_http.bat file is located, the mini sub folders inside of it starting from 0 ending at 199 (if you use the 200th slot 199 will appear) can just be deleted to remove a model. 
 
 they will automatically remake themselves when you add a model in a slot that doesnt have a folder.
@@ -170,7 +180,7 @@ they will automatically remake themselves when you add a model in a slot that do
 # FINALLY 
 we get to testing, I will tell you audio issues that happen and how to fix them. 
 
-From using the initial testing if you talk if your voice sounds perfectly clear you can move your chunk to the next smaller size until theres any issue, however for you smelly fucks who have an issue with the voice being choppy, you make your chunk size one larger.
+From using the initial testing if you talk if your voice sounds perfectly clear you can move your chunk to the next smaller size until theres any issue, however if you still have an issue with the voice being choppy, you make your chunk size one size larger.
 
 You will repeat this process until you cant proceed any further, if you made it to 2048 chunk, you can try one final thing and pray it works and make your extra size one value larger, do not go any higher than this 65k value as you'll just have so much more resources used.
 
