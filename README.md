@@ -122,7 +122,7 @@ ONNX models are what you need to actually use your GPU, so you are going to have
 
 Note: during sound testing if switching to MME didnt work just go to client mode like i said it was your saving grace, but you would only choose your input and output device
 
-# Does your Voice Sound like you are being electrofucked by Chinese Pop Rock Candy?
+# Fix for increasing stability at lower latency
 
 audiodg.exe to priority high and cpu affinity to a single cpu core (you have to do it every boot unless you get processlasso)
 
@@ -147,7 +147,7 @@ your output device does not change at all it stays your normal headphones or spe
 
 wow that was easy wasnt it!
 
-# Special Fix Section for Audio
+# Fix Section for Audio making noises on its own
 
 You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list two options
 
@@ -155,12 +155,14 @@ NVIDIA Broadcast can work extremely well however on system reboots theres a 50% 
 
 Steelseries Sonar this is the one I use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
 
-# Super High End GPU Owners I.E. 3060+
+# High End GPU Owners I.E. 3060+
 you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
+
+it is still case by case but as long as you did everything above even the audiodg stuff then you should be fine UNLESS you are using sample rates above 48000.
 
 the giga 4090 chads can get away with basically anything but i still recommend 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 16k extra is working for me but your extra may be larger, it just will use more resources, think of it as a data cache that makes low latency function without sounding like Joe Biden
 
-# special model section
+# model section
 yes it is possible to delete models, however not in the UI, you have to navigate to the folder called MODEL_DIR where your start_http.bat file is located, the mini sub folders inside of it starting from 0 ending at 199 (if you use the 200th slot 199 will appear) can just be deleted to remove a model. 
 
 they will automatically remake themselves when you add a model in a slot that doesnt have a folder.
@@ -170,26 +172,30 @@ we get to testing, I will tell you audio issues that happen and how to fix them.
 
 From using the initial testing if you talk if your voice sounds perfectly clear you can move your chunk to the next smaller size until theres any issue, however for you smelly fucks who have an issue with the voice being choppy, you make your chunk size one larger.
 
-You will repeat this process until you cant proceed any further, if you made it to 2048 extra for those smelly fucks you can try one final thing and pray it works and make your extra size one value larger, do not go any higher than this 16k value as you'll just have so much negative value that it wont even matter if you can run it.
+You will repeat this process until you cant proceed any further, if you made it to 2048 chunk, you can try one final thing and pray it works and make your extra size one value larger, do not go any higher than this 65k value as you'll just have so much more resources used.
 
-For those good people who have there new Low Chunk size figured out where they can't go any lower, congratulations if you want to lower you COULD raise the extra like I said before to the 16k value, but it will use more CPU resources, for me a RTX 3070 user, I can get away with 32 chunk (i use 48 instead because anything longer than this has the same level of quality)
+For those good people who have there new Low Chunk size figured out where they can't go any lower, congratulations if you want to lower you COULD raise the extra like I said before to the 16k value, but it will use more CPU resources just do not exceed 65k extra, for me a RTX 3070 user, I can get away with 32 chunk (i use 48 instead because anything longer than this has the same level of quality for me)
 
-You want to be able to talk for at least 20 seconds non stop with absolutely no stuttering or words being cut off (on client mode this will happen if you turn any of the NOISE checkboxes on so just dont)
+You want to be able to talk for at least 20 seconds non stop with absolutely no stuttering or words being cut off (on client mode this will happen if you turn any of the NOISE checkboxes usually so just dont and get something else for noise suppression as stated before)
 
-The very first sentence you say will always be fucked somehow so when you change a setting keep saying something like cuck until you hear it say it clear. then you can do your 20ish seconds of talking to see if it works, you will get tripped up in this testing phase as you are listening to what you say slightly delayed.
+The very first sentence or word you say will always be fucked somehow so when you change a setting keep saying something like cuck until you hear it say it clear. then you can do your 20ish seconds of talking to see if it works, you will get tripped up in this testing phase as you are listening to what you say slightly delayed.
 
 Finally you can remove the monitoring option if you like what you ended up with, so you dont have to listen to your ai voice anymore, as you are now a proud user of realtime voice with it being consistent.
 
-Now let's make that secret sauce that allows RVC to use less resources, its not by a lot but it still matters.
+# you do not need to proceed from this point on
+
+Now let's make that secret sauce that allows RVC to use less resources, its not by a lot but it still does something.
 we can now delete that original shortcut you have, or don't if you are a rebel.
 
-Open up notepad and paste the next three lines into the file
+Open up notepad and paste the next three lines into the file, make sure the file is ONLY 3 lines.
 
+-----------------------------------------------------
 Set WshShell = CreateObject("WScript.Shell") 
 
 WshShell.Run chr(34) & "C:\PATH\TO\MMVCServerSIO\start_http.bat" & Chr(34), 0
 
 Set WshShell = Nothing
+-----------------------------------------------------
 
 change the Path to, parts into the actual path to the start_http.bat file. its different for everyone.
 
@@ -198,14 +204,16 @@ Save this file as a .vbs (refer to the VBS Image folder to see what the inside o
 What this file does is make that black box that always launches, not show up when you run this. itll save 1% cpu usage but 1% is still something
 Sometimes itll be more depending on how much resources it was using in task manager, for me it was trying to use 30% which now it doesnt use anything.
 
-ONLY do the VBS file if you have everything set up and dont plan on changing anything. this means you have no need to even look at the black box for errors as its already working perfectly for you
+ONLY do the VBS file if you have everything set up and dont plan on changing anything. this means you have no need to even look at the cmd window for errors as its already working perfectly for you
 
-note: So according to the AI HUB discord you allegedly need to have the file inside of the MMVCServerSIO folder where the start_http.bat file is to make it work
+note: you should have the file inside of the MMVCServerSIO folder where the start_http.bat file is to make it work, you can then make a shortcut of this and put it anywhere you want, 
 
-# Congratulations you should have a working setup!
+mine goes in the startup folder since i want it to be running the moment i turn my computer on. to do so press win+e, control+L, type startup, press enter if you want it to appear in your windows start menu go back on folder by clicking the programs section in the top bar, and put the file there, or just put it on your desktop.
+
+# Congratulations you should have a working setup with some good optimizations!
 any other stuff you have issues with ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
 
-# this section is just a general tip you dont have to do this AT ALL but it has removed any fps drops for me
+# this section doesnt refer to the voice changer but can help for lessening FPS drops in game
 
 UNDERVOLTING sounds scary but it isnt. it reduces temp and can get you more performance out of your card. read an actual guide on how to do it
 
