@@ -109,11 +109,6 @@ Now heres where having a Virtual Audio Cable Matters, this is where you would ch
 Monitor : Same thing with the first drop down box as previously stated
 Pick your headphones on this for initial testing.
 
-To use on any other APP, your INPUT for that game or application will be
-
-Your virtal audio cable, the one you selected as output above^
-
-your output device does not change at all it stays your normal headphones or speakers
 
 ---------------------------------------------------
 
@@ -135,6 +130,17 @@ as for the single cpu core make it an even number as thats your real cpu cores, 
 This gets rid of any potential static happening as you are forcing it only use one core, if its on all cores and its cycling through as it normally does, it produces crackles, static, etc.
 
 if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
+
+
+# But MOM how do i use it everywhere else!
+
+To use on any other APP, your INPUT for that game or application will be
+
+Your virtal audio cable, the one you selected as output above^
+
+your output device does not change at all it stays your normal headphones or speakers
+
+wow that was easy wasnt it!
 
 # Special Needs Section for AUDIO
 
