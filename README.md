@@ -3,6 +3,7 @@ This guide is written by: [YunaOneeChan](https://discord.com/users/8249227474230
 
 # Other Links
 Pinned Guide in the AI Hub server #help-voice-changer channel : https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit 
+
 Antasma's issues and fixes page : https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub
 
 
