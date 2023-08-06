@@ -109,6 +109,12 @@ Now heres where having a Virtual Audio Cable Matters, this is where you would ch
 Monitor : Same thing with the first drop down box as previously stated
 Pick your headphones on this for initial testing.
 
+To use on any other APP, your INPUT for that game or application will be
+
+Your virtal audio cable, the one you selected as output above^
+
+your output device does not change at all it stays your normal headphones or speakers
+
 
 Now one last statement for you AMD folks,
 ONNX models are what you need to actually use your GPU, so you are going to have to convert your model to ONNX if you cant, cry. or make someone else do it for you. I certainly wont.
