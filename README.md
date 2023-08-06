@@ -98,7 +98,7 @@ Note: during sound testing if switching to MME didnt work just go to client mode
 
 # Does your Voice Sound like you are being electrofucked by Chinese Pop Rock Candy?
 
-audiodg.exe to priority high and cpu affinity to a single cpu core
+audiodg.exe to priority high and cpu affinity to a single cpu core (you have to do it every boot unless you get processlasso)
 
 open task manager hit details
 
