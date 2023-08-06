@@ -17,7 +17,14 @@ This is not a one stop shop just my recommendations for what YOU the person read
 \\\\ WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THERES A LOW CHANCE DURING THE SWITCH WHERE IT ACTUALLY JUST DOESNT START \\\\ 
 \\\\ FOR OTHER ERRORS GO TO THE VERY BOTTOM OF THE PAGE I HAVE TWO MORE LISTED \\\\
 
+------------------
+V12 of W-Okada's software is actually really good.
 
+A) Passthrough which means you can just leave your mic on your virtual audio cable, and send your normal voice through it if you turn passthrough (red)
+
+B) Monitoring now has a use on server mode, if you do want to hear yourself and dont want to throw off your word timing, set the gain now conveniently below monitoring down to like 0.1 you want it very very subtle.
+
+------------------
 
 Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it, we will make a better version of this shortcut later that uses even less resources once everything is 100% working.
 
