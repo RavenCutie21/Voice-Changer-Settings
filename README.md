@@ -26,6 +26,18 @@ B) Monitoring now has a use on server mode, if you do want to hear yourself and 
 
 ------------------
 
+What do I download? Make sure to use HuggingFace and read the downloads it appears in bottom left corner, with the full url of what you are about to click.
+
+A) NVIDIA - onnxgpu-cuda
+
+B) AMD or INTEL GPU - onnxdirectML version
+
+C) CPU - doesnt matter both work
+
+D) MAC - the only mac one
+
+------------------
+
 Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it, we will make a better version of this shortcut later that uses even less resources once everything is 100% working.
 
 IF your GPU is not showing and you have an NVidia Graphics card make sure you have the NVIDIA Cuda Toolkit drivers installed, you can do a google search and find it.
