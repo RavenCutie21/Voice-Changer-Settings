@@ -34,7 +34,7 @@ WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THE
 
 V12 of W-Okada's software has some nice features now
 
-A) Passthrough which means you can just leave your mic on your virtual audio cable, and send your normal voice through it if you turn passthrough (red)
+A) Passthrough which means you can just leave your mic on your virtual audio cable, and send your normal voice through it if you turn passthrough (red), so if you want the voicechanger voice, leave it (green).
 
 B) Monitoring now has a use on server mode, and it also appears in client mode, if you do want to hear yourself and dont want to throw off your word timing, set the gain now conveniently below monitoring down to like 0.3 you want it very very subtle.
 
