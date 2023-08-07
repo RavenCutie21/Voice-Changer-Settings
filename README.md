@@ -111,6 +111,7 @@ Client Mode : this mode is slower but can be your only hope if server mode just 
 Sample Rate: Pick the sample rate of your audio devices in your windows sounds settings, to get there on windows 10 you right click the speakers icon in your task bar and hit sounds, on windows 11 you have to hit sound settings, then scroll to the bottom and hit advanced sound settings which would finally open the same window, overly complicated for no reason Microcuck.
 44100 or 48000 are what you want to be using just make both of them match, on your recording and playback device.
 
+----------------------------------------------
 You will need to have a Virtual Audio Cable of some sort in a moment.
 
 When installing a virtual cable it will change your defaults for your window sounds settings, so you have to open the sounds panel and reselect your defaults back to your mic and headphones, hence why the one i recommended is still even better as itll offer to open it immediately.
@@ -159,11 +160,15 @@ wow that was easy wasnt it!
 
 # Fix Section for Audio making noises on its own
 
-You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list two options
+You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list four options
 
-NVIDIA Broadcast can work extremely well however on system reboots theres a 50% chance it just breaks your voice changer, the issue was specifically happening to me, if it doesnt for you then thats gucci, if it is though just get the next one.
+NVIDIA Broadcast can work extremely well however on system reboots if you dont configure its defaults seperately from everything else it can just pick the virtual cable as its mic and not work.
 
-Steelseries Sonar this is the one I use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
+AMD Noise Suppression can also work but it lowers your audio quality a fair amount depending on the level of background noise bleed, too high of a sample rate will not work, you need 48000 afaik.
+
+Steelseries Sonar this is the one I used to use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but still way better than AMD's version anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
+
+Finally the new method that I use, I use Werman's RN Noise removal, by injecting it into my microphone, with Equalizer APO. It sounds complicated but it doesnt even create another virtual input like all the others. It's noise suppression is equal to Nvidia Broadcasts, with LESS usage than steelseries sonar. You can watch a video for learning how to set this up or DM me if you really want to. 
 
 # High End GPU Owners I.E. 3060+
 you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
