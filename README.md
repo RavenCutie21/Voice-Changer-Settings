@@ -40,7 +40,7 @@ B) Monitoring now has a use on server mode, and it also appears in client mode, 
 
 ------------------
 
-What do I download? Make sure to use HuggingFace and read the downloads it appears in bottom left corner, with the full url of what you are about to click.
+What do I download? Make sure to use HuggingFace and read the downloads, since it shows all 3 in one spot again, it appears in bottom left corner, with the full url of what you are about to click.
 
 A) NVIDIA - onnxgpu-cuda
 
