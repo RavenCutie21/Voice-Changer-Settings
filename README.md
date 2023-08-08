@@ -170,7 +170,9 @@ Steelseries Sonar this is the one I used to use, has Clearcast built into it whi
 
 Finally the new (actually pretty old) method that I use, I use Werman's RN Noise removal, by injecting it into my microphone, with Equalizer APO. It sounds complicated but it doesnt even create another virtual input like all the others. It's noise suppression is equal to Nvidia Broadcasts, with LESS usage than steelseries sonar. You can watch a video for learning how to set this up or DM me if you really want to. 
 
-In my opinion putting the VST's that you get from Werman RN Noise into this folder C:\Program Files\EqualizerAPO\VSTPlugins is far easier as your first time going to select a plugin will throw it there. Just remember when setting it up your chain will go as follows for APO, Device-your mic, any other plugins you want like preamp which is just gain control minus20 to positive20db, and finally the rn noise plugin, there will be a folder at the top called WermanSettings to show what i recommend as well as a voice clip showing off and on
+In my opinion putting the VST's that you get from Werman RN Noise into this folder C:\Program Files\EqualizerAPO\VSTPlugins is far easier as your first time going to select a plugin will throw it there. Just remember when setting it up your chain will go as follows for APO, Device-your mic, any other plugins you want like preamp which is just gain control minus20 to positive20db, and finally the rn noise plugin, there will be a folder at the top called WermanSettings to show what i recommend as well as a voice clip showing off and on.
+
+Stereo was the only one that worked for me but if Mono works, use that as its far more efficient.
 
 # High End GPU Owners I.E. 3060+
 you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
