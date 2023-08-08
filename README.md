@@ -168,7 +168,7 @@ AMD Noise Suppression can also work but it lowers your audio quality a fair amou
 
 Steelseries Sonar this is the one I used to use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but still way better than AMD's version anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
 
-Finally the new method that I use, I use Werman's RN Noise removal, by injecting it into my microphone, with Equalizer APO. It sounds complicated but it doesnt even create another virtual input like all the others. It's noise suppression is equal to Nvidia Broadcasts, with LESS usage than steelseries sonar. You can watch a video for learning how to set this up or DM me if you really want to. 
+Finally the new (actually pretty old) method that I use, I use Werman's RN Noise removal, by injecting it into my microphone, with Equalizer APO. It sounds complicated but it doesnt even create another virtual input like all the others. It's noise suppression is equal to Nvidia Broadcasts, with LESS usage than steelseries sonar. You can watch a video for learning how to set this up or DM me if you really want to. 
 
 # High End GPU Owners I.E. 3060+
 you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
