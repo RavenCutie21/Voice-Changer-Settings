@@ -162,7 +162,7 @@ wow that was easy wasnt it!
 
 You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list four options
 
-NVIDIA Broadcast can work extremely well however on system reboots if you dont configure its defaults seperately from everything else it can just pick the virtual cable as its mic and not work.
+NVIDIA Broadcast can work extremely well however on system reboots if you dont configure its defaults seperately from everything else it can just pick the virtual cable as its mic and not work. (to do so open sound settings, and scroll until you can press app volume and device preferences, find the input box for this application and press your actual microphone this fixes any issues with the voice changer breaking from my testing)
 
 AMD Noise Suppression can also work but it lowers your audio quality a fair amount depending on the level of background noise bleed, too high of a sample rate will not work, you need 48000 afaik.
 
