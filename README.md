@@ -81,7 +81,7 @@ AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or
 for both types of cards you play a little minigame of testing where you want to get as low of a chunk size as you can without any audio issues happening
 
 # Graphics Card, and Why it's not being used
-FOR You NVIDIA users first, CUDA core usage does not appear on Task Manager usage, if you have your GPU selected it is being used, depending on your settings it'll be around 40% of your VRAM.
+NVIDIA owners first, CUDA core usage does not appear on Task Manager usage, if you have your GPU selected it is being used, depending on your settings it'll be around 40% of your VRAM.
 
 For AMD people the section before this explains how to make it use your gpu, reread it
 
@@ -135,7 +135,7 @@ This gets rid of any potential static happening as you are forcing it only use o
 if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
 
 
-# But MOM how do i use it everywhere else!
+# But how do I use it everywhere else!
 
 To use on any other APP, your INPUT for that game or application will be
 
@@ -143,7 +143,7 @@ Your virtal audio cable, the one you selected as output above^
 
 your output device does not change at all it stays your normal headphones or speakers
 
-wow that was easy wasnt it!
+very very easy.
 
 # Fix Section for Audio making noises on its own
 
@@ -221,7 +221,7 @@ note: you should have the file inside of the MMVCServerSIO folder where the star
 mine goes in the startup folder since i want it to be running the moment i turn my computer on. to do so press win+e, control+L, type startup, press enter if you want it to appear in your windows start menu go back on folder by clicking the programs section in the top bar, and put the file there, or just put it on your desktop.
 
 # Congratulations you should have a working setup with some good optimizations!
-any other stuff you have issues with ask AI Hub's discord server but it should be fully explained here unless its a weird issue.
+any other stuff you have issues with ask [AI Hub's discord server](https://discord.gg/aihub) but it should be covered in this guide unless its a weird issue.
 
 # this section doesnt refer to the voice changer but can help for lessening FPS drops in game
 
@@ -291,6 +291,4 @@ A) Third party antivirus can conflict and cause it to not start or
 
 B) The more Likely one is the path to the file is too long, either put it on the root of your drive or directly on your desktop
 
-
-If it is something else please ask someone else, everything I know goes into this guide.
 
