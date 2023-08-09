@@ -252,6 +252,8 @@ After Installing and running it, No UI will open, that's the point of it. Now yo
 
 192.168.1.123... put that number in your browser on a computer you want to use it on, and put :18888 at the end which is basically what the normal install does already. Now if I'm correct since I haven't done this yet, I believe it would be Server for audio mode but it could very well just be client mode. I am going to assume it's Client where you would as the client should be the user and the server would be just the thing actually hosting it. But it should just work like a normal install from this point.
 
+edit: so from my limited testing it seems like it is client mode you want to use, but it broke randomly after it was working so i wasnt able to fully find out
+
 # random error stuff figured out
 
 if this error appears:
