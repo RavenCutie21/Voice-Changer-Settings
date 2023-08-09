@@ -40,7 +40,7 @@ B) AMD or INTEL GPU - onnxdirectML version
 
 C) CPU - doesnt matter both work
 
-D) MAC - the only mac one
+D) MAC - the only mac one obviously
 
 ------------------
 
