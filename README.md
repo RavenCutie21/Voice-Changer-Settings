@@ -7,11 +7,11 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 [Antasma's issues and fixes page](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
 
-# basics
+# The Basics
 Make sure to read the guide fully
 
 virtual cable i recommend but at the end of the day it doesnt matter
-[VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable runs better than the one by SHITMEETER (great hatred to stuff that lowers quality for no reason) and you dont even have to change any settings, it has lower latency and a better audio quality right out of the box
+[VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable runs better than the one by [Voicemeeter](https://vb-audio.com/Cable/) and you dont even have to change any settings, it has lower latency and a better audio quality right out of the box
 
 
 ------------------
@@ -29,14 +29,6 @@ IF YOU ARE GETTING ERROR CONNECTION REFUSED ON PORT 18888 DELETING STORED_SETTIN
 ------------------
 
 WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THERES A LOW CHANCE DURING THE SWITCH WHERE IT ACTUALLY JUST DOESNT START
-
-------------------
-
-V12 of W-Okada's software has some nice features now
-
-A) Passthrough which means you can just leave your mic on your virtual audio cable, and send your normal voice through it if you turn passthrough (red), so if you want the voicechanger voice, leave it (green).
-
-B) Monitoring now has a use on server mode, and it also appears in client mode, if you do want to hear yourself and dont want to throw off your word timing, set the gain now conveniently below monitoring down to like 0.3 you want it very very subtle.
 
 ------------------
 
@@ -64,21 +56,23 @@ For AMD open your task manager (control+shift+escape) Press Performance, and you
 
 That number listed is what you would select inside of W-Okada's client to use your gpu.
 
+# New Features added in Version 12
 
-# TUNE and the semi-worthless index
+Passthru - When RED it sends your NORMAL mic into your OUTPUT, and DISABLES the voicechanger, when GREEN the voicechange is on like it was PRIOR to V12.
+
+Monitoring now has a use on server mode, and it also appears in client mode, if you do want to hear yourself and dont want to throw off your word timing, set the gain now conveniently below monitoring down to like 0.3 you want it very very subtle.
+
+# TUNE and index
 Tune is voice dependant so female to male you want a - tune, female to female you ideally dont have to change anything but you might have to depending on how soft your voice is in comparison.
 
 The same can be said for males but its just reversed from above where soft becomes deep
 
-now the truly worthless thing called index, there is ZERO benefit from using this, the only thing you really get is demerits, such as longer processing time, more cpu&gpu usage, lower quality, but if you absoluetely have to because your accent is very strong then that is really unfortunate as it does use significantly more resources. You only use the hard values of 0 or 1. 0 being off, and 1 being on. do not use anything in between, it really doesn't effect it by much unless its a hard value.
+Index is only really beneficial if your Accent is HEAVY, or DOESN'T MATCH and you can't imitate the person's accent you want. But the cost is CPU usage, 300% more usage to be exact. I recommend using 0.
 
 
 # Chunk Extra And F.0
 Look at the images located in the folders above corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as the starting point for Chunk + Extra.
 
-but seriously....
-
-NAVIGATE TO THE SCREENSHOT FOLDER IT LITERALLY GIVES YOU ALL OF THESE SETTINGS, F0 now has a folder explaining what each thing does in chart format.
 
 NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes in my screenshot.
 
@@ -86,30 +80,30 @@ AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or
 
 for both types of cards you play a little minigame of testing where you want to get as low of a chunk size as you can without any audio issues happening
 
-# BUT ITS NOT USING MY GWAFFICS CARD >:(
-FOR You NVIDIA users first, CUDA core usage does not appear on Task Manager usage, if you have your GPU selected it is being used.
+# Graphics Card, and Why it's not being used
+FOR You NVIDIA users first, CUDA core usage does not appear on Task Manager usage, if you have your GPU selected it is being used, depending on your settings it'll be around 40% of your VRAM.
 
-For You AMD people the section before this explains how to make it use your gpu, reread it
+For AMD people the section before this explains how to make it use your gpu, reread it
 
-"BUT ITS USING 50% OF MY CPU!@#! AND ONLY 5% OF MY GPU!" that.... is litearlly how it works, if its not using your cpu at all the program wouldnt even be open.
+Yes the program will still use your CPU, that's just how things work. The Extra Value is basically adding CPU usage for you.
 
-but it isnt supposed to be using half your cpu, which means you are running something too hard usually it is the EXTRA setting. So just.... LOWER IT. 
+DO NOT USE EXTRA ABOVE 32768, IDEALLY JUST USE 16384
 
-As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 30% gpu usage
+As an owner of a 3070 and an 11700F, it uses AT MOST 9% cpu usage while talking. and 30% gpu usage from checking vram. with 64chunk 16384extra
 
-for intel arc, i have only seen one other person with it so i do not know if this is the case but i believe you just follow amd for this guide
+for intel arc, i have only seen one other person with it so i do not know if this is the case but i believe you just follow AMD
 
 # Audio
-Reasons why I am listing the settings where they are as is, as it is a good middle ground that should work for majority of users, I will explain how to do the Audio Section now which is at the bottom no images are needed here if you can understand text you should be fine as images wont really matter as you can't see everything anyways.
-
 What to pick
 
 Server Mode : this is the option I recommend everyone to pick, it is faster and doesnt try to get reprocessed again
 
-Client Mode : this mode is slower but can be your only hope if server mode just doesnt work for you
+Client Mode : this mode is slower but can be your only hope if server mode just doesnt work for you, or if you are using a DUAL computer setup.
 
-Sample Rate: Pick the sample rate of your audio devices in your windows sounds settings, to get there on windows 10 you right click the speakers icon in your task bar and hit sounds, on windows 11 you have to hit sound settings, then scroll to the bottom and hit advanced sound settings which would finally open the same window, overly complicated for no reason Microcuck.
-44100 or 48000 are what you want to be using just make both of them match, on your recording and playback device.
+Sample Rate: Pick the sample rate of your audio devices in your windows sounds settings, to get there on windows 10 you right click the speakers icon in your task bar and hit sounds, on windows 11 you have to hit sound settings, then scroll to the bottom and hit advanced sound settings which would finally open the same window, they made it overly complicated for no reason.
+44100 or 48000 are what you want to be using just make both of them match, on your recording and playback device. 
+
+Just an extra side note: some people have really good audio equipment and use over 48000 sample rate, you will not be able to use chunk sizes as low as others on 48000, that is because your audio data is exponentially larger based on your sample rate.
 
 ----------------------------------------------
 You will need to have a Virtual Audio Cable of some sort in a moment.
@@ -125,13 +119,6 @@ Now heres where having a Virtual Audio Cable Matters, this is where you would ch
 Monitor : Same thing with the first drop down box as previously stated
 Pick your headphones on this if you want to listen to it
 
-
----------------------------------------------------
-
-AMD folks, 
-ONNX models are what you need to actually use your GPU, so you are going to have to convert your model to ONNX if you cant, cry. or make someone else do it for you. I certainly wont.
-
-Note: during sound testing if switching to MME didnt work just go to client mode like i said it was your saving grace, but you would only choose your input and output device
 
 # Fix for increasing stability at lower latency
 
@@ -174,12 +161,12 @@ In my opinion putting the VST's that you get from Werman RN Noise into this fold
 
 Stereo was the only one that worked for me but if Mono works, use that as its far more efficient.
 
-# High End GPU Owners I.E. 3060+
-you should just be able to get away with 32 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80ish.
+# Higher End GPU Owners I.E. 3060+
+you should just be able to get away with 48 chunk and 16k extra with no issue at all, unless your game is gpu intensive then you raise the chunk to 80 or 112+.
 
 it is still case by case but as long as you did everything above even the audiodg stuff then you should be fine UNLESS you are using sample rates above 48000.
 
-the giga 4090 chads can get away with basically anything but i still recommend 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 16k extra is working for me but your extra may be larger, it just will use more resources, think of it as a data cache that makes low latency function without sounding like Joe Biden
+the giga 4090 chads can get away with basically anything but my recommendation would be 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 32k extra, think of extra as a data cache that makes low latency function without sounding like complete ass.
 
 # model section
 replacing a model does not delete it
