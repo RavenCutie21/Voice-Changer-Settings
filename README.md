@@ -244,6 +244,14 @@ but the quick explanation is use msi after burner, look up what your reference b
 
 i do cap my fps anyways obviously if you are running unlimited there will be some drops, but im running no drops now while before i was from the same cap i had set previously.
 
+# Want to host on a seperate computer and still use it
+
+You are gonna need to install it manually using either Docker or Anaconda.
+
+After Installing and running it, No UI will open, that's the point of it. Now you want to find your Computers local IP address, you can figure out how to do that, but lets say it's
+
+192.168.1.123... put that number in your browser on a computer you want to use it on, and put :18888 at the end which is basically what the normal install does already. Now if I'm correct since I haven't done this yet, I believe it would be Server for audio mode but it could very well just be client mode. I am going to assume it's Client where you would as the client should be the user and the server would be just the thing actually hosting it. But it should just work like a normal install from this point.
+
 # random error stuff figured out
 
 if this error appears:
