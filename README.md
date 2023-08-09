@@ -135,7 +135,7 @@ as for the single cpu core make it an even number as thats your real cpu cores, 
 
 This gets rid of any potential static happening as you are forcing it only use one core, if its on all cores and its cycling through as it normally does, it produces crackles, static, etc.
 
-if you get ProcessLasso you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
+if you get [ProcessLasso](https://bitsum.com) you can make the audiodg.exe setting continuously reapply every boot, otherwise you have to do it yourself every single time, suffer.
 
 
 # But how do I use it everywhere else!
