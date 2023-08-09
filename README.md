@@ -13,6 +13,9 @@ Make sure to read the guide fully
 virtual cable i recommend but at the end of the day it doesnt matter
 [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable runs better than the one by [Voicemeeter](https://vb-audio.com/Cable/) and you dont even have to change any settings, it has lower latency and a better audio quality right out of the box
 
+------------------
+
+127.0.0.1 is localhost so it doesnt matter if people see it. same as if it starts with 192.168 or 10.0, its all the same thing. there is no point in worrying about showing it in a screenshot.
 
 ------------------
 
