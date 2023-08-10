@@ -1,4 +1,4 @@
-# A guide for W-Okada's RealTimeVoiceChangerClient and an overview of it's Settings
+# A guide for [W-Okada's RealTimeVoiceChangerClient](https://github.com/w-okada/voice-changer/blob/master/README_en.md) and an overview of it's Settings
 This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 # Other Links
