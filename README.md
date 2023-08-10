@@ -7,6 +7,26 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 [Antasma's issues and fixes page](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
 
+# TLDR tweak after initial set up to your hardware
+
+NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+
+AMD/INTEL: f0-CREPE_TINY/FULL,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
+
+Colab/CPU: f0-CREPE_TINY,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+
+Input: Noise Suppressed Mic
+
+Output: Virtual Cable
+
+Monitor: Headphones
+
+Monitor Gain 0.5
+
+Passthru GREEN = WORKING VOICE CHANGER
+
+Passthru RED = NO MORE WORKING VOICE CHANGER
+
 # The Basics
 Make sure to read the guide fully
 
