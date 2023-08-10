@@ -41,7 +41,7 @@ A) NVIDIA - onnxgpu-cuda
 
 B) AMD or INTEL GPU - onnxdirectML version
 
-C) CPU - doesnt matter both work, but extremely laggy regardless
+C) CPU - doesnt matter both work, but extremely laggy regardless... collab version soon
 
 D) MAC - the only mac one obviously
 
