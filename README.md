@@ -41,7 +41,7 @@ A) NVIDIA - onnxgpu-cuda
 
 B) AMD or INTEL GPU - onnxdirectML version
 
-C) CPU - doesnt matter both work, but extremely laggy regardless... collab version soon
+C) CPU - doesnt matter both work, but extremely laggy regardless... collab version is better but your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucks really bad.
 
 D) MAC - the only mac one obviously
 
