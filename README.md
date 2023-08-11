@@ -191,7 +191,7 @@ it is still case by case but as long as you did everything above even the audiod
 
 the giga 4090 chads can get away with basically anything but my recommendation would be 32 chunk as if its clear for a 3070 you should be fine no point in going lower anyways. 32k extra, think of extra as a data cache that makes low latency function without sounding like complete ass.
 
-# model section
+# model deletion section
 replacing a model does not delete it
 
 yes it is possible to delete models, however not in the UI, you have to navigate to the folder called MODEL_DIR where your start_http.bat file is located, the mini sub folders inside of it starting from 0 ending at 199 (if you use the 200th slot 199 will appear) can just be deleted to remove a model. 
@@ -212,6 +212,9 @@ You want to be able to talk for at least 20 seconds non stop with absolutely no 
 The very first sentence or word you say will always be fucked somehow so when you change a setting keep saying something like cuck until you hear it say it clear. then you can do your 20ish seconds of talking to see if it works, you will get tripped up in this testing phase as you are listening to what you say slightly delayed.
 
 Finally you can remove the monitoring option if you like what you ended up with, so you dont have to listen to your ai voice anymore, as you are now a proud user of realtime voice with it being consistent.
+
+----------------------------------------------------
+do not push any buttons below the audio section unless you like experimenting
 
 # you do not need to proceed from this point on
 
