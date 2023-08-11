@@ -7,7 +7,7 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 [Antasma's issues and fixes page](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
 
-# TLDR tweak after initial set up to your hardware
+# TLDR tweak afterwards, there is no "PERFECT" settings
 
 NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
