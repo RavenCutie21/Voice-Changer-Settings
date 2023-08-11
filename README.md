@@ -57,11 +57,11 @@ WHEN SWITCHING TO SERVER MODE FROM CLIENT MODE JUST RESTART YOUR APPLICATION THE
 
 What do I download? Make sure to use HuggingFace and read the downloads, since it shows all 3 in one spot again, it appears in bottom left corner, with the full url of what you are about to click.
 
-A) NVIDIA - onnxgpu-cuda
+A) NVIDIA/CPU - onnxgpu-cuda
 
 B) AMD or INTEL GPU - onnxdirectML version
 
-C) CPU - doesnt matter both work, but extremely laggy regardless... collab version is better but your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucks really bad.
+C) collab version is terrible but still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucks really bad.
 
 D) MAC - the only mac one obviously
 
