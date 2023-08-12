@@ -97,7 +97,7 @@ Index is only really beneficial if your Accent is HEAVY, or DOESN'T MATCH and yo
 Look at the images located in the folders above corresponding to what you have, for W-Okadas voice changer client itll give what i recommend as the starting point for Chunk + Extra.
 
 
-NOTE: I do not have an AMD card so you wont see the cpu, 0, 1, 2, 3, boxes in my screenshot.
+NOTE: I do not have an AMD card so it's speculation on what chunk and extra to use but everything else is correct.
 
 AMD users you have to have an ONNX model, and you HAVE to be using CREPE_TINY or CREPE_FULL for your gpu to even be used.
 
