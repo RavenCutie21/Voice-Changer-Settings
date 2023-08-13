@@ -8,6 +8,7 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 # Quick Navigation click any blue text to jump
 
+Quick Settings [(TEXT Version)](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#tldr-tweak-afterwards-there-is-no-perfect-settings) [(Image Version)](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main/Quick%20Settings%20Images)
 
 [Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
 
