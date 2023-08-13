@@ -11,6 +11,10 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 Virtual Cables
 
+What Version to Download
+
+Before Starting
+
 Tune & Index Explanation
 
 Chunk, Extra, & F0
@@ -53,16 +57,15 @@ Passthru GREEN = WORKING VOICE CHANGER
 
 Passthru RED = NO MORE WORKING VOICE CHANGER
 
-# The Basics
 
 
-Virtual Cables
+# Virtual Cables
 
 [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable is called Line 1 on In/Output 
 
 [Voicemeeter](https://vb-audio.com/Cable/) - this virtual cable is the voicemeeter one, Input is called VB Cable Output, while output is reveresed.
 
-------------------
+# What Version
 
 What do I download? Make sure to use HuggingFace and read the downloads, since it shows all 3 in one spot again, it appears in bottom left corner, with the full url of what you are about to click.
 
@@ -74,7 +77,7 @@ C) [Collab version](https://github.com/w-okada/voice-changer/blob/master/Realtim
 
 D) MAC - the only mac one obviously
 
-------------------
+# Before Starting
 
 Find your start_http.bat file, right click it and create a shortcut; Put that new shortcut on your desktop so you can easily access it.. if the cmd window instantly closes the next line is for you, else ignore it.
 
