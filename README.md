@@ -69,7 +69,7 @@ D) MAC - the only mac one obviously
 
 ------------------
 
-Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it, we will make a better version of this shortcut later that uses even less resources once everything is 100% working.
+Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it
 
 if that does work do the following in the folder where start_http.bat is press "control+L" type "cmd" press "enter" type "start_http.bat" press "enter"
 
