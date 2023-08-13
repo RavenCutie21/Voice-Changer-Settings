@@ -9,33 +9,33 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 # Quick Navigation click any blue text to jump
 
 
-Virtual Cables
+[Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
 
-What Version to Download
+[What Version to Download](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#what-version)
 
-Before Starting
+[Before Starting](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#before-starting)
 
-Tune & Index Explanation
+[Tune & Index Explanation](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#tune-and-index)
 
-Chunk, Extra, & F0
+[Chunk, Extra, & F0](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#chunk-extra--f0)
 
-Graphics Card Troubleshooting
+[Graphics Card Troubleshooting](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#graphics-card-not-showing-up-or-not-being-utilized)
 
-Audio
+[Audio](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audio)
 
-Audiodg Optimizations
+[Audiodg Optimizations](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audiodgexe-optimizations)
 
-Using Elsewhere
+[Using Elsewhere](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#using-the-voicechanger-elsewhere)
 
-Noise Suppression
+[Noise Suppression](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#noise-suppression)
 
-Model Deletion & Updating
+[Model Deletion & Updating](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#noise-suppression)
 
-Testing
+[Testing](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#testing)
 
-Launching on Mac
+[Launching on Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#opening-on-mac)
 
-Undervolting for Gamers
+[Undervolting for Gamers](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#the-gamers)
 
 # TLDR tweak afterwards, there is no "PERFECT" settings
 
@@ -202,6 +202,11 @@ As a Just in case before updating backup the ENTIRE model_dir folder or move it 
 # Testing
 While testing the only important thing to pay attention to are the Chunk/Extra. Just make sure you already changed your Tune and saved what you think sounds closest to the voice you are using.
 
+You will do an audio test, if there is any sort of lag or stuttering that means your chunk is too low, or not using enough EXTRA, Ideally do not exceed 32768 extra as CPU resource usage is exponential from this setting
+
+If it is perfectly clear you can try lowering your chunk more until you get an acceptable latency, else raise it
+
+That's all you do in a loop there will be a point you can't proceed anymore and those are your perfect settings, unless you play something thats extremely intensive on your system then you have to tweak it a little bit.
 
 # you do not need to proceed from this point on
 
