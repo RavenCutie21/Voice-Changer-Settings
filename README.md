@@ -6,6 +6,8 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 [Antasma's issues and fixes page](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
+# Mac version has a section farther down
+control+F to find it, I just copy pasted how to launch it from Okada's so its all in one place
 
 # TLDR tweak afterwards, there is no "PERFECT" settings
 
