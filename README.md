@@ -71,7 +71,7 @@ D) MAC - the only mac one obviously
 
 Before even starting find your start_http.bat file, right click it and create a shortcut, if you do not know how to create a shortcut, figure it out. Put that new shortcut on your desktop so you can easily access it
 
-if that does work do the following in the folder where start_http.bat is press "control+L" type "cmd" press "enter" type "start_http.bat" press "enter"
+if that does work do the following in the folder where start_http.bat is press "control+L" type "cmd" press "enter" (if this doesnt open a CMD with the path of your folder showing, then figure out how to get there with the cd command) type "start_http.bat" press "enter"
 
 IF your GPU is not showing and you have an NVidia Graphics card make sure you have the NVIDIA Cuda Toolkit drivers installed, you can do a google search and find it.
 
