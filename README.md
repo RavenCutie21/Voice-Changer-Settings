@@ -249,6 +249,18 @@ mine goes in the startup folder since i want it to be running the moment i turn 
 # Congratulations you should have a working setup with some good optimizations!
 any other stuff you have issues with ask [AI Hub's discord server](https://discord.gg/aihub) but it should be covered in this guide unless its a weird issue.
 
+
+# Mac Only
+It is launched as follows.
+
+Unzip the downloaded file.
+
+Next, run MMVCServerSIO by hold down the control key and clicking it (or right-click to run it). If a message appears stating that the developer cannot be verified, run it again by holding down the control key and clicking it (or right-click to run it). The terminal will open and the process will finish within a few seconds.
+
+Next, execute the startHTTP.command by holding down the control key and clicking on it (or you can also right-click to run it). If a message appears stating that the developer cannot be verified, repeat the process by holding down the control key and clicking on it (or perform a right-click to run it). A terminal will open, and the launch process will begin.
+
+In other words, the key is to run both MMVCServerSIO and startHTTP.command. Moreover, you need to run MMVCServerSIO first.
+
 # this section doesnt refer to the voice changer but can help for lessening FPS drops in game
 
 UNDERVOLTING sounds scary but it isnt. it reduces temp and can get you more performance out of your card. read an actual guide on how to do it
