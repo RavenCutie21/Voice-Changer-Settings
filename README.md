@@ -34,7 +34,7 @@ Quick Settings [(TEXT Version)](https://github.com/YunaOneeChan/Voice-Changer-Se
 
 [Testing](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#testing)
 
-Discord Settings
+[Discord Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#discord-settings)
 
 [Launching on Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#opening-on-mac)
 
