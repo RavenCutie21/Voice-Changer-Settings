@@ -82,6 +82,8 @@ D) MAC - the only mac one obviously
 
 # Before Starting
 
+You need to extract the MMVCServerSIO folder and put it somewhere else, ideally your Desktop, or the root of your Drive. 
+
 Find your start_http.bat file, right click it and create a shortcut; Put that new shortcut on your desktop so you can easily access it.. if the cmd window instantly closes the next line is for you, else ignore it.
 
 In the folder where start_http.bat is press "control+L" type "cmd" press "enter" (if this doesnt open a CMD with the path of your folder showing, use the cd command to navigate to that folder) type "start_http.bat" press "enter"
