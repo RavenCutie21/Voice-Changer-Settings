@@ -34,6 +34,8 @@ Quick Settings [(TEXT Version)](https://github.com/YunaOneeChan/Voice-Changer-Se
 
 [Testing](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#testing)
 
+Discord Settings
+
 [Launching on Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#opening-on-mac)
 
 [Undervolting for Gamers](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#the-gamers)
@@ -241,6 +243,22 @@ mine goes in the startup folder since i want it to be running the moment i turn 
 
 # Congratulations you should have a working setup with some good optimizations!
 any other stuff you have issues with ask [AI Hub's discord server](https://discord.gg/aihub) but it should be covered in this guide unless its a weird issue.
+
+# Discord Settings
+
+I am going to go through all of the Discord Voice & Video settings and tell you what you change for the voice changer to have the least problems.
+
+Input Mode: Voice Activity, unless you want to Hold your PTT key longer than you are used to
+
+Input sensitivity uncheck and manually set it to something like -75db or -65db
+
+Echo Cancellation : Turn this off, when testing in voice & video it causes your voice to cut in and out, and its arguably useless anyways.
+
+Noise Suppression : Standard or None. I prefer None since I do all of my own noise supression anyways.
+
+Automatic Gain : Personal Preference but Off is what I prefer.
+
+Audio Subsystem : for the least issues Legacy, otherwise just stick to Standard. It doesn't make that much of a difference
 
 
 # Opening on Mac
