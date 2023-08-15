@@ -200,6 +200,7 @@ your output device does not change at all it stays your normal headphones or spe
 very very easy.
 
 # Noise Suppression
+Yes this removes the voice model speaking on its own, as long as you pick any option it will just work, the 4th one however only works in server mode, the rest work on Client and Server.
 
 You are going to need Audio Suppression of some kind if you have constant background noise on your normal microphone. Just pick one below, I will list four options
 
@@ -270,6 +271,7 @@ mine goes in the startup folder since i want it to be running the moment i turn 
 any other stuff you have issues with ask [AI Hub's discord server](https://discord.gg/aihub) but it should be covered in this guide unless its a weird issue.
 
 # Discord Settings
+Reference images will be listed at the end for most of whats listed here
 
 I am going to go through all of the Discord Voice & Video settings and tell you what you change for the voice changer to have the least problems.
 
@@ -284,6 +286,10 @@ Noise Suppression : Standard or None. I prefer None since I do all of my own noi
 Automatic Gain : Personal Preference but Off is what I prefer.
 
 Audio Subsystem : for the least issues Legacy, otherwise just stick to Standard. It doesn't make that much of a difference
+
+![One](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Discord%20Settings/discord%20settings%201.png)
+![Two](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Discord%20Settings/discord%20settings%202.png)
+![Three](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Discord%20Settings/discord%20settings%203.png)
 
 
 # Opening on Mac
