@@ -88,7 +88,7 @@ Find your start_http.bat file, right click it and create a shortcut; Put that ne
 
 In the folder where start_http.bat is press "control+L" type "cmd" press "enter" (if this doesnt open a CMD with the path of your folder showing, use the cd command to navigate to that folder) type "start_http.bat" press "enter"
 
-doing this will install all dependencies and make the voice changer run, you will always open the file to start the voice changer.
+This will install almost all dependencies and make the voice changer run, you will always open the file referrenced above to start the voice changer.
 
 IF your GPU is not showing and you have an NVidia Graphics card make sure you have the NVIDIA Cuda Toolkit drivers installed, you can do a google search and find it.
 
