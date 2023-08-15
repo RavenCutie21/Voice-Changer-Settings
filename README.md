@@ -90,7 +90,7 @@ In the folder where start_http.bat is press "control+L" type "cmd" press "enter"
 
 This will install almost all dependencies and make the voice changer run, you will always open the file referrenced above to start the voice changer.
 
-IF your GPU is not showing and you have an NVidia Graphics card make sure you have the [NVIDIA Cuda Toolkit drivers](https://developer.nvidia.com/cuda-downloads) installed, you can do a google search and find it.
+IF your GPU is not showing and you have an NVidia Graphics card make sure you have the [NVIDIA Cuda Toolkit drivers](https://developer.nvidia.com/cuda-downloads) installed
 
 If you have an AMD or Intel GPU you should have the DirectML version of W-Okada's Realtime voice changer client installed. To tell the difference if you look at the GPU section, if theres a dropdown menu, thats the NVidia one, as of Version 11. If it says cpu, 0, 1, 2, 3, then you are on the AMD&Intel one. 
 
@@ -122,6 +122,9 @@ What I would pick for AMD/INTEL and CPU, Crepe_Tiny or Dio as they are the light
 
 
 # Graphics Card not showing up, or not being utilized
+
+IF your GPU is not showing and you have an NVidia Graphics card make sure you have the [NVIDIA Cuda Toolkit drivers](https://developer.nvidia.com/cuda-downloads) installed, refer to this [screenshot](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png) for Nvidia GPUs or this [screenshot](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png) for AMD/Intel GPUs 
+
 NVIDIA owners, CUDA core usage does not appear on Task Manager usage normally, if you have your GPU selected it is being used, depending on your settings it'll be around 40% of your VRAM, other times it'll sometimes show up even if it's not actually meant to
 
 For AMD&Intel you need to use the correct F0, as well as export your Model to ONNX, and reupload it as the ONNX file.
