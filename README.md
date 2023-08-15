@@ -90,7 +90,7 @@ In the folder where start_http.bat is press "control+L" type "cmd" press "enter"
 
 This will install almost all dependencies and make the voice changer run, you will always open the file referrenced above to start the voice changer.
 
-IF your GPU is not showing and you have an NVidia Graphics card make sure you have the NVIDIA Cuda Toolkit drivers installed, you can do a google search and find it.
+IF your GPU is not showing and you have an NVidia Graphics card make sure you have the [NVIDIA Cuda Toolkit drivers](https://developer.nvidia.com/cuda-downloads) installed, you can do a google search and find it.
 
 If you have an AMD or Intel GPU you should have the DirectML version of W-Okada's Realtime voice changer client installed. To tell the difference if you look at the GPU section, if theres a dropdown menu, thats the NVidia one, as of Version 11. If it says cpu, 0, 1, 2, 3, then you are on the AMD&Intel one. 
 
