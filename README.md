@@ -86,13 +86,15 @@ Passthru RED = NO MORE WORKING VOICE CHANGER
 
 What do I download? Make sure to use HuggingFace and read the downloads, since it shows all 3 in one spot again, it appears in bottom left corner, with the full url of what you are about to click.
 
-A) NVIDIA/CPU - onnxgpu-cuda
+Links will update to the LATEST version every week.
 
-B) AMD or INTEL GPU - onnxdirectML version
+A) NVIDIA/CPU - [onnxgpu-cuda](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12a.zip)
+
+B) AMD or INTEL GPU - [onnxdirectML version](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12a.zip)
 
 C) [Collab version](https://github.com/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucked really bad for me
 
-D) MAC - the only mac one obviously
+D) MAC - [the only mac one obviously](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12a.zip)
 
 # Before Starting
 
