@@ -8,7 +8,7 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 # Quick Navigation click any blue text to jump
 
-Quick Settings [(TEXT Version)](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#tldr-tweak-afterwards-there-is-no-perfect-settings) [(Image Version)](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main/Quick%20Settings%20Images)
+[Quick Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#tldr-tweak-afterwards-there-is-no-perfect-settings)
 
 [Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
 
@@ -42,11 +42,25 @@ Quick Settings [(TEXT Version)](https://github.com/YunaOneeChan/Voice-Changer-Se
 
 # TLDR tweak afterwards, there is no "PERFECT" settings
 
+
 NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+
+![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
+
 
 AMD/INTEL: f0-CREPE_TINY/FULL,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
 
-Colab/CPU: f0-CREPE_TINY,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+![Amd/Intel](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png)
+
+
+CPU: f0-Dio,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+
+![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/CPU%20settings.png)
+
+Colab: f0-CREPE_TINY,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+
+![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab%20settings.png)
+
 
 Input: Noise Suppressed Mic
 
@@ -122,12 +136,6 @@ What I would pick for AMD/INTEL and CPU, Crepe_Tiny or Dio as they are the light
 
 
 # Graphics Card not showing up, or not being utilized
-Nvidia Screenshot
-![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
-
-Amd/Intel Screenshot
-![Amd/Intel](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png)
-
 
 IF your GPU is not showing and you have an NVidia Graphics card make sure you have the [NVIDIA Cuda Toolkit drivers](https://developer.nvidia.com/cuda-downloads) 
 
