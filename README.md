@@ -2,9 +2,15 @@
 This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 # Other Links
-[Original Pinned Guide](https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit )
+[Original Guide](https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit )
 
-[Antasma's fixes page](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
+[Antasma's Error Fixes](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
+
+[SociallyIneptWeeb's AI Cover Gen](https://github.com/SociallyIneptWeeb/AICoverGen)
+
+[Sharmah's Realtime Translator & Subtitler](https://github.com/Sharrnah/whispering-ui)
+
+[0Xiaohei0's Realtime Voice Converter EN to JP](https://github.com/0Xiaohei0/VoiceToJapanese)
 
 # Quick Navigation click any blue text to jump
 
