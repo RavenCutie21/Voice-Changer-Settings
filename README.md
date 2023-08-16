@@ -6,6 +6,8 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 [Antasma's Error Fixes](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
+Anything below this are just cool tech, I will not help with, you can create posts on the Github pages it links to.
+
 [SociallyIneptWeeb's AI Cover Gen](https://github.com/SociallyIneptWeeb/AICoverGen)
 
 [Sharmah's Realtime Translator & Subtitler](https://github.com/Sharrnah/whispering-ui)
