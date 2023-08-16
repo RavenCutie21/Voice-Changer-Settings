@@ -78,7 +78,7 @@ Passthru RED = NO MORE WORKING VOICE CHANGER
 
 # Virtual Cables
 
-[VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable is called Line 1 on In/Output 
+Recommended: [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychenko.net/freeware/vac470lite.zip) - this virtual cable is called Line 1 on In/Output 
 
 [Voicemeeter](https://vb-audio.com/Cable/) - this virtual cable is the voicemeeter one, Input is called VB Cable Output, while output is reveresed.
 
@@ -106,7 +106,7 @@ In the folder where start_http.bat is press "control+L" type "cmd" press "enter"
 
 This will install almost all dependencies and make the voice changer run, you will always open the file referrenced above to start the voice changer.
 
-Nvidia users will have the onnxgpu-cuda
+Nvidia users will have the onnxgpu-cuda version
 
 If you have an AMD or Intel GPU you should have the onnxdirectML-cuda version of W-Okada's Realtime voice changer client installed. To tell the difference if you look at the GPU section, if theres a dropdown menu, thats the NVidia one, as of Version 11. If it says cpu, 0, 1, 2, 3, then you are on the AMD&Intel one. 
 
@@ -193,7 +193,7 @@ if you get [ProcessLasso](https://bitsum.com) you can make the audiodg.exe setti
 # Using the voicechanger elsewhere
 To use on any other APP, your INPUT for that game or application will be
 
-Your virtal audio cable, the one you selected previously in the audio section
+Your [virtal audio cable](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables), the one you selected previously in the audio section
 
 your output device does not change at all it stays your normal headphones or speakers
 
@@ -302,6 +302,9 @@ Next, run MMVCServerSIO by hold down the control key and clicking it (or right-c
 Next, execute the startHTTP.command by holding down the control key and clicking on it (or you can also right-click to run it). If a message appears stating that the developer cannot be verified, repeat the process by holding down the control key and clicking on it (or perform a right-click to run it). A terminal will open, and the launch process will begin.
 
 In other words, the key is to run both MMVCServerSIO and startHTTP.command. Moreover, you need to run MMVCServerSIO first.
+
+[Or refer to this video slightly below this section it linkes you to in W-Okadas github page called m1_mac, It is probably outdated but its the only one i can find](https://github.com/w-okada/voice-changer/blob/master/README_en.md#software-signing)
+
 
 # The Gamers
 
