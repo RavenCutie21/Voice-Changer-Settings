@@ -216,7 +216,7 @@ You are going to need Audio Suppression of some kind if you have constant backgr
 
 AMD Noise Suppression (this just appears in your amd driver software afaik) can also work but it lowers your audio quality a fair amount depending on the level of background noise bleed, too high of a sample rate will not work, you need 48000 afaik.
 
-[Steelseries Sonar](https://steelseries.com/gg/sonar) this is the one I used to use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but still way better than AMD's version anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
+Recommended Method: [Steelseries Sonar](https://steelseries.com/gg/sonar) this is the one I used to use, has Clearcast built into it which is a really good noise suppression, its not as good as Broadcasts but still way better than AMD's version anyone should be able to use it even if your system was built by the Obama Administration who fucked our school lunches by making it significantly worse quality
 
 Final Method: Do not use if you use Client Mode 
 
