@@ -70,7 +70,7 @@ CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to
 
 Colab: f0-RMVPE,Chunk 192,Extra131072,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any, but seemed ONNX was clearer on the very first words, 
 
-if you wait awhile it will have a choppy start again, you can mess with chunk and see if that fixes it. UNFORTUNATELY the EXPORT to ONNX button seems to broken and doesnt do anything as of August 17th, 2023.
+if you wait awhile it will have a choppy start again, you can mess with chunk and see if that fixes it. Exporting to ONNX will ask you to download it (i had downloads hidden so false report of it not working for a few mins)
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reColab%20settings.png)
 
