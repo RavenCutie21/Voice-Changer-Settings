@@ -68,9 +68,9 @@ CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab: f0-CREPE_TINY/RMVPE,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+Colab: f0-RMVPE,Chunk 192,Extra131072,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any, but seemed ONNX was clearer on the very first words, if you wait awhile it will have a choppy start again, you can mess with chunk and see if that fixes it
 
-![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab%20settings.png)
+![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reColab%20settings.png)
 
 M1 Mac(WIP Section): f0-Harvest, I assume RMVPE should be fine due to previous results,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug, atleast for the one user found using it.
 
