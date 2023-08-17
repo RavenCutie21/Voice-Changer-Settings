@@ -96,7 +96,7 @@ Recommended: [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychen
 
 [Voicemeeter](https://vb-audio.com/Cable/) - this virtual cable is the voicemeeter one, Input is called VB Cable Output, while output is reveresed.
 
-Mac user please get [Blackhole Virtual Audio Cable](https://existential.audio/blackhole/) your output in the voice changer will be called Blackhole 2ch (virtual)
+Mac only cable [Blackhole Virtual Audio Cable](https://existential.audio/blackhole/), But [Voicemeeter](https://vb-audio.com/Cable/) one works as well
 
 # What Version
 
