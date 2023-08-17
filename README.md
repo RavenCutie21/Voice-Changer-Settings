@@ -72,8 +72,9 @@ Colab: f0-CREPE_TINY/RMVPE,Chunk MAXED,Extra4096,Tune Voice dependant but range 
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab%20settings.png)
 
-M1 Mac: f0-CREPE_TINY/RMVPE is what im gonna assume due to previous results,Chunk WIP but seems like 512,Extra 8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type
+M1 Mac(WIP Section): f0-Harvest, I assume RMVPE should be fine due to previous results,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug, atleast for the one user found using it.
 
+![Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Mac%20Settings.png)
 
 Input: Noise Suppressed Mic
 
