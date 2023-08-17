@@ -98,7 +98,7 @@ Links will update to the LATEST version every week.
 
 A) NVIDIA/CPU - [onnxgpu-cuda](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12a.zip)
 
-B) AMD or INTEL GPU - [onnxdirectML version](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12a.zip)
+B) AMD or INTEL ARC - [onnxdirectML version](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12a.zip) - do know that the DIRECTML version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
 
 C) [Collab version](https://github.com/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucked really bad for me
 
