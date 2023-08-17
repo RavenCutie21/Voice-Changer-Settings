@@ -301,6 +301,8 @@ Audio Subsystem : for the least issues Legacy, otherwise just stick to Standard.
 
 
 # Opening on Mac
+One thing to know is INTEL Mac's DO NOT WORK AT ALL.
+
 It is launched as follows.
 
 Unzip the downloaded file.
