@@ -66,7 +66,7 @@ AMD/INTEL: f0-CREPE_TINY/RMVPE,Chunk 112,Extra4096-16384,Tune Voice dependant bu
 
 CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
-
+![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/CPU%20settings.png)
 
 Colab: f0-CREPE_TINY/RMVPE,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
