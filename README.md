@@ -150,11 +150,9 @@ F.0, depending on what GPU you have or lack there of, depends on what you use he
 
 Nvidia: Ideally you use RMVPE, but if you have an older card it can cause it to be laggy, so you refer to AMD/Intel
 
-AMD/Intel: You ONLY have 2 options for this CREPE_FULL and CREPE_TINY, reason being you need to follow specific steps to make your GPU work unfortunately.
+AMD/Intel: You have 2 options for this CREPE_TINY and RMVPE, you still need to use ONNX models
 
 CPU: DIO or Harvest, nothing else matters for you.
-
-What I would pick for AMD/INTEL and CPU, Crepe_Tiny or Dio as they are the lightweight ones meaning you should be able to run it at lower latencies.
 
 
 # Graphics Card not showing up, or not being utilized
@@ -172,7 +170,7 @@ What to pick
 
 Server Mode : this is the option I recommend everyone to pick, it is faster and doesnt try to get reprocessed again, and you get to pick the driver you use
 
-Client Mode : this mode is slower than server mode, it also uses the "Chrome Browser" version of accessing your mic, so if you use something like EQAPO (explained later) it won't register the changes you did, or if you are using a DUAL computer setup you then have to use it.
+Client Mode : this mode is slower than server mode by 40ms total, it also uses the "Chrome Browser" version of your mic, so if you use something like EQAPO (explained later) it won't register the changes you did, or if you are using a DUAL computer setup or Colab you then have to use this.
 
 Sample Rate (S.R): Pick the sample rate of your audio devices in your windows sounds settings, to get there on windows 10 you right click the speakers icon in your task bar and hit sounds, on windows 11 you have to hit sound settings, then scroll to the bottom and hit advanced sound settings which would finally open the same window, they made it overly complicated for no reason.
 44100 or 48000 are what you want to be using for most people. If you have good equipment like a Shure SM7B, it'll more likely be 192000 sample rate.
