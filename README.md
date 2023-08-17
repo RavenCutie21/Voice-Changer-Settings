@@ -56,7 +56,7 @@ NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but r
 ![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
 
 
-AMD/INTEL: f0-CREPE_TINY/FULL,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
+AMD/INTEL: f0-CREPE_TINY/FULL(allegedly RMVPE will wait on furter confirmations),Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
 
 ![Amd/Intel](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png)
 
@@ -90,6 +90,8 @@ Recommended: [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychen
 
 [Voicemeeter](https://vb-audio.com/Cable/) - this virtual cable is the voicemeeter one, Input is called VB Cable Output, while output is reveresed.
 
+Mac user please get [Blackhole Virtual Audio Cable](https://existential.audio/blackhole/) your output in the voice changer will be called Blackhole 2ch (virtual)
+
 # What Version
 
 What do I download? Make sure to use HuggingFace and read the downloads, since it shows all 3 in one spot again, it appears in bottom left corner, with the full url of what you are about to click.
@@ -111,6 +113,8 @@ You need to extract the MMVCServerSIO folder and put it somewhere else, ideally 
 Find your start_http.bat file, right click it and create a shortcut; Put that new shortcut on your desktop so you can easily access it.. if the cmd window instantly closes the next line is for you, else ignore it.
 
 In the folder where start_http.bat is press "control+L" type "cmd" press "enter" (if this doesnt open a CMD with the path of your folder showing, use the cd command to navigate to that folder) type "start_http.bat" press "enter"
+
+If it seems like its stuck at any point in the future when running click in the CMD window and press enter
 
 This will install almost all dependencies and make the voice changer run, you will always open the file referrenced above to start the voice changer.
 
