@@ -236,6 +236,8 @@ In my opinion putting the VST's that you get from Werman RN Noise or the install
 
 Stereo was the only one that worked for me on Werman but it uses more resources (hard to tell), if Mono works, use that as its far more efficient. Goyo works on mono & stereo for me. 
 
+DISCLAIMER: GOYO IS CPU INTENSIVE AND CAN CAUSE SOUND BREAKING ON YOUR SYSTEM, RN NOISE IS THE FAR SAFER OPTION BUT EVEN THAT CAN DO THE SAME THING, IT IS HIGHLY RECOMMENDED THAT YOU JUST USE SONAR INSTEAD
+
 # model deletion and or updating
 replacing a model does not delete it
 
