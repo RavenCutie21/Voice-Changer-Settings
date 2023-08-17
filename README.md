@@ -50,24 +50,29 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 # TLDR tweak afterwards, there is no "PERFECT" settings
 
+Gain is personal preference but lowering input also reduces any extra background noise leakage that you may happen to have even with a Noise Suppressed Mic.
+
+Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE, you can now ignore CREPE_FULL in it's entirety. 
 
 NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
 ![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
 
 
-AMD/INTEL: f0-CREPE_TINY/FULL(allegedly RMVPE will wait on furter confirmations),Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
+AMD/INTEL: f0-CREPE_TINY/RMVPE,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
 
 ![Amd/Intel](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png)
 
 
-CPU: f0-Dio,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+CPU: f0-Dio/CREPE_TINY,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/CPU%20settings.png)
 
-Colab: f0-CREPE_TINY,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+Colab: f0-CREPE_TINY/RMVPE,Chunk MAXED,Extra4096,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab%20settings.png)
+
+M1 Mac: f0-CREPE_TINY/RMVPE is what im gonna assume due to previous results,Chunk WIP but seems like 512,Extra 8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type
 
 
 Input: Noise Suppressed Mic
