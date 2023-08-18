@@ -234,6 +234,9 @@ Final Method: Do not use if you use Client Mode
 
 VST Plugins injected into your mic [Werman's RN Noise removal](https://github.com/werman/noise-suppression-for-voice) or [Goyo's AI Voice Seperator](https://goyo.app), using [Equalizer APO](https://sourceforge.net/projects/equalizerapo/). 
 
+^ these plugins are kinda intensive for older hardware so do the more optimized version farther down using reaplugs and atkexpander. all of this is completely free, you just got to figure out your own settings for it all. If you are a nice individual ill coach you through the entire thing but probably not #toolazy
+
+
 In my opinion putting the VST's that you get from Werman RN Noise or the installer of Goyo into this folder C:\Program Files\EqualizerAPO\VSTPlugins is far easier as your first time going to select a plugin will throw it there. Just remember when setting it up your chain will go as follows for APO, Device-your mic, any other plugins you want like preamp which is just gain control minus20 to positive20db, and finally the rn noise plugin, there will be a folder at the top called WermanSettings to show what i recommend as well as a voice clip showing off and on.
 
 Stereo was the only one that worked for me on Werman but it uses more resources (hard to tell), if Mono works, use that as its far more efficient. Goyo works on mono & stereo for me. 
