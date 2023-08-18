@@ -236,6 +236,12 @@ In my opinion putting the VST's that you get from Werman RN Noise or the install
 
 Stereo was the only one that worked for me on Werman but it uses more resources (hard to tell), if Mono works, use that as its far more efficient. Goyo works on mono & stereo for me. 
 
+Now the SAFEST way of using EQAPO, you will get [REAPLUGS](https://www.reaper.fm/reaplugs/), and you will get an expander I use [ATKEXPANDER](https://www.kvraudio.com/product/atkexpander-by-matthieu-brucher) in this screenshot
+
+![APO](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/WermanSettings/safe%20noise%20reduction.png)
+
+You will have to manually edit your settings yourself as I do not show it, but there are guides on how to do that, you just have to look around yourself. This screenshot is a very efficient way of doing it with GAIN STAGING.
+
 DISCLAIMER: GOYO IS CPU INTENSIVE AND CAN CAUSE SOUND BREAKING ON YOUR SYSTEM, RN NOISE IS THE FAR SAFER OPTION BUT EVEN THAT CAN DO THE SAME THING, IT IS HIGHLY RECOMMENDED THAT YOU JUST USE SONAR INSTEAD
 
 # model deletion and or updating
