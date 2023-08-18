@@ -211,9 +211,11 @@ if you get [ProcessLasso](https://bitsum.com) you can make the audiodg.exe setti
 # Using the voicechanger elsewhere
 To use on any other APP, your INPUT for that game or application will be
 
-Your [virtal audio cable](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables), the one you selected previously in the audio section
+Your [virtal audio cable](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
 
 your output device does not change at all it stays your normal headphones or speakers
+
+in the voice changer like it was said previously will have to select it as output or monitor to be outputting sound into it.
 
 very very easy.
 
