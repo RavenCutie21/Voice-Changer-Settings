@@ -32,7 +32,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 [Audio](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audio)
 
-Advanced Settings
+[Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#advanced-settings)
 
 [Audiodg Optimizations](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audiodgexe-optimizations)
 
