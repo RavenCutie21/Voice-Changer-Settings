@@ -32,6 +32,8 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 [Audio](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audio)
 
+Advanced Settings
+
 [Audiodg Optimizations](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audiodgexe-optimizations)
 
 [Using Elsewhere](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#using-the-voicechanger-elsewhere)
@@ -193,6 +195,12 @@ This is where you pick your Virtual Audio Cable from way earlier from the name's
 Monitor : Same thing with the first drop down box as previously stated, but now you pick your headphones if you want to monitor audio.
 
 There is a mini gain slider, that controls how loud you hear your voice, I recommend something subtle like 0.5 or less so you don't get tripped up when you talk.
+
+# Advanced Settings
+
+These are my Advanced Settings, feel free to copy them, but I really don't advise changing them that much unless you know what you are doing. Sometimes I change Trancate back to 100.
+
+![Screenshot](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/My%20Advanced%20Settings.png)
 
 # Audiodg.exe Optimizations
 
