@@ -106,7 +106,7 @@ Mac only cable [Blackhole Virtual Audio Cable](https://existential.audio/blackho
 
 What do I download? Don't worry I made this simple, just click either Latest or Stable depending on your Graphics card.
 
-If you don't have at least 4gb of VRAM I would highly recommend just going with the Collab Version, as it will definitely run better. 
+If you don't have at least 4gb of VRAM I would highly recommend just going with the Colab Version, as it will definitely run better. 
 
 Links will update to the LATEST and most STABLE version every week.
 
@@ -116,7 +116,7 @@ B) AMD or INTEL ARC - [latest](https://huggingface.co/wok000/vcclient000/resolve
 
 note the AMD or Intel ARC version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
 
-C) [Collab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucked really bad for me
+C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucked really bad for me
 
 D) MAC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12a.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
