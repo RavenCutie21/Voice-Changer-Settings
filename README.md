@@ -355,3 +355,9 @@ but the quick explanation is use msi after burner, look up what your reference b
 
 i do cap my fps anyways obviously if you are running unlimited there will be some drops, but im running no drops now while before i was from the same cap i had set previously.
 
+-------------------------------------
+# Heres a Guide on how to make your normal mic sound better using Equalizer APO
+
+https://github.com/YunaOneeChan/Sounding-Good-With-APO
+
+It's very basic currently and doesn't cover the actual EQ part of it, but it gives a general use template, with only two things you change yourself. One is for removing a ton of background noise, the other is the actual eq part as every voice is different.
