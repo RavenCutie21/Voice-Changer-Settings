@@ -108,15 +108,15 @@ What do I download? Make sure to use HuggingFace and read the downloads, since i
 
 Links will update to the LATEST version every week.
 
-A) NVIDIA/CPU - [onnxgpu-cuda latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12a.zip) [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12.zip)
+A) NVIDIA/CPU - [onnxgpu-cuda latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12a.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12.zip)
 
-B) AMD or INTEL ARC - [onnxdirectML latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12a.zip)  [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12.zip)
+B) AMD or INTEL ARC - [onnxdirectML latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12a.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12.zip)
 
 note DIRECTML version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
 
 C) [Collab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucked really bad for me
 
-D) MAC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12a.zip) [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
+D) MAC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12a.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
 # Before Starting
 
