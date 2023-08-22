@@ -74,6 +74,8 @@ Colab: f0-RMVPE,Chunk 192,Extra131072,Tune Voice dependant but range is -12 to +
 
 if you wait awhile it will have a choppy start again, you can mess with chunk and see if that fixes it. Exporting to ONNX will ask you to download it (i had downloads hidden so false report of it not working for a few mins)
 
+note: i do not used index files at all, if you want to be able to lower the extra to 8192, and raise chunk to 256
+
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reColab%20settings.png)
 
 M1 Mac(WIP Section): f0-Harvest, I assume RMVPE should be fine due to previous results,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
