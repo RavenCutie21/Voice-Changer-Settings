@@ -74,7 +74,7 @@ Colab: f0-RMVPE,Chunk 192,Extra131072,Tune Voice dependant but range is -12 to +
 
 if you wait awhile it will have a choppy start again, you can mess with chunk and see if that fixes it. Exporting to ONNX will ask you to download it (i had downloads hidden so false report of it not working for a few mins)
 
-note: i do not used index files at all, if you want to be able to lower the extra to 8192, and raise chunk to 256
+i do not used index files at all, if you want to be able to lower the extra to 8192, and raise chunk to 256, this is just my recommendation you can tweak it to your liking
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reColab%20settings.png)
 
