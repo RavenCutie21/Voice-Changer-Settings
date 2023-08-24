@@ -74,13 +74,11 @@ CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab: f0-RMVPE,Chunk 192,Extra131072,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any, but seemed ONNX was clearer on the very first words, 
+Colab: f0-CREPE_TINY,Chunk 192,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any, but seemed ONNX was clearer on the very first words, 
 
-if you wait awhile it will have a choppy start again, you can mess with chunk and see if that fixes it. Exporting to ONNX will ask you to download it (i had downloads hidden so false report of it not working for a few mins)
+Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab. They seem to work infinitely better
 
-i do not used index files at all, if you want to be able to lower the extra to 8192, and raise chunk to 256, this is just my recommendation you can tweak it to your liking
-
-![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reColab%20settings.png)
+![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colabv2.png)
 
 M1 Mac(WIP Section): f0-Harvest, I assume RMVPE should be fine due to previous results,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
@@ -211,6 +209,8 @@ There is a mini gain slider, that controls how loud you hear your voice, I recom
 These are my Advanced Settings, feel free to copy them, but I really don't advise changing them that much unless you know what you are doing. Sometimes I change Trancate back to 100.
 
 ![Screenshot](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/My%20Advanced%20Settings.png)
+
+![Screenshot2](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Advancedv2.png)
 
 # Audiodg.exe Optimizations
 
