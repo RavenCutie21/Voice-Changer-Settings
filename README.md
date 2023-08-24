@@ -76,7 +76,7 @@ CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to
 
 Colab: f0-CREPE_TINY,Chunk 192 is the lowest you can go, but do something safer like the screenshot below,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out. 
 
-Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab. They seem to work infinitely better, just remember if its not working for you these are just what i got to work for me
+Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab. They seem to work way better and it seems to be what you would run on a DUAL PC setup, just remember if its not working for you these are just what i got to work for me
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colabv2.png)
 
@@ -120,7 +120,7 @@ B) AMD or INTEL ARC - [latest](https://huggingface.co/wok000/vcclient000/resolve
 
 note the AMD or Intel ARC version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
 
-C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still probably better than running on CPU, your settings are 2048 chunk 4096 extra crepe_tiny, anything else and it sucked really bad for me
+C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still better than running on old hardware by a long shot.
 
 D) MAC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12a.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
@@ -206,7 +206,7 @@ There is a mini gain slider, that controls how loud you hear your voice, I recom
 
 # Advanced Settings
 
-These are my Advanced Settings, feel free to copy them, but I really don't advise changing them that much unless you know what you are doing. Sometimes I change Trancate back to 100.
+These are my Advanced Settings, feel free to copy them, but I really don't advise changing them that much unless you know what you are doing. Sometimes I change Trancate back to 100. Either screenshot is fine, but bottom one is definitely more so towards dual PC, but still works extremely well on a single one.
 
 ![Screenshot](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/My%20Advanced%20Settings.png)
 
