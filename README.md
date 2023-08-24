@@ -74,9 +74,9 @@ CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab: f0-CREPE_TINY,Chunk 192,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any, but seemed ONNX was clearer on the very first words, 
+Colab: f0-CREPE_TINY,Chunk 192,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out. 
 
-Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab. They seem to work infinitely better
+Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab. They seem to work infinitely better, just remember if its not working for you these are just what i got to work for me
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colabv2.png)
 
