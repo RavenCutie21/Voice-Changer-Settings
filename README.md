@@ -354,7 +354,7 @@ Next, execute the startHTTP.command by holding down the control key and clicking
 
 In other words, the key is to run both MMVCServerSIO and startHTTP.command. Moreover, you need to run MMVCServerSIO first.
 
-[Or refer to this video slightly below this section it linkes you to in W-Okadas github page called m1_mac, It is probably outdated but its the only one i can find](https://github.com/w-okada/voice-changer/blob/master/README_en.md#software-signing)
+Please refer to Okada's documentation as it will have more on it, this is just how to get it opened. 
 
 
 # The Gamers
