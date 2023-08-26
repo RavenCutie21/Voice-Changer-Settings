@@ -24,9 +24,9 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 [Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
 
-[What Version to Download](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#what-version)
+[What Version to Download](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#what-version-to-download)
 
-[Before Starting](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#before-starting)
+[Starting Out](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#starting-out)
 
 [Tune & Index Explanation](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#tune-and-index)
 
@@ -106,7 +106,7 @@ Recommended: [VAC (Virtual-Audio-Cable by Muzychenko)](https://software.muzychen
 
 Mac only cable [Blackhole Virtual Audio Cable](https://existential.audio/blackhole/), But [Voicemeeter](https://vb-audio.com/Cable/) one works as well
 
-# What Version
+# What Version to Download
 
 What do I download? Don't worry I made this simple, just click either Latest or Stable depending on your Graphics card.
 
@@ -124,7 +124,7 @@ C) [Colab version](https://colab.research.google.com/github/w-okada/voice-change
 
 D) MAC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12a.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
-# Before Starting
+# Starting Out
 
 You need to extract the MMVCServerSIO folder and put it somewhere else, ideally your Desktop, or the root of your Drive. 
 
