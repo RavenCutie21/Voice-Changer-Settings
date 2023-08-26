@@ -112,17 +112,17 @@ What do I download? Don't worry I made this simple, just click either Latest or 
 
 If you don't have at least 4gb of VRAM I would highly recommend just going with the Colab Version, as it will definitely run better. 
 
-Links will update to the LATEST and most STABLE version every week.
+The First Link of all sections will be the LATEST, the second link will be the MOST STABLE until further testing is done.
 
-A) NVIDIA/CPU - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.13.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12.zip)
+A) NVIDIA/CPU - [Version 13 latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.13.zip) or [Version 12 older](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12.zip)
 
-B) AMD or INTEL ARC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.13.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12.zip)
+B) AMD or INTEL ARC - [Version 13 directml](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.13.zip) or [Version 12 directml](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12.zip)
 
-note the AMD or Intel ARC version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
+note the directml version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
 
-C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still better than running on old hardware by a long shot.
+C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still better than running on old hardware by a long shot. Average 1 second of latency.
 
-D) MAC - [latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.13.zip) or [stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
+D) MAC - [Version 13 Mac](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.13.zip) or [Version 12 Mac](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
 # Starting Out
 
