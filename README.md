@@ -6,7 +6,7 @@ No hard feeling to anyone, this guide will still be maintained for the most part
 Have a wonderful day, if I find anything new it will just be added like normal #SchizoOut
 
 # Other Links
-[Original Guide](https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit ) I consider this as OUTDATED now.
+[Original Guide](https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit ) I consider this as OUTDATED now, but it does have some useful things like how to set up Voicemeeters Virtual Cable.
 
 [Antasma's Error Fixes](https://docs.google.com/document/d/e/2PACX-1vQIwJ3MVidhgEaXwWFl0xpVonVOVfneaNVADd7-NMWFgPIsfWWhG8NNqzQMsXDIOGlBIfxscoIm2_6I/pub)
 
