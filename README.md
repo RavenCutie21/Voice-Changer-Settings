@@ -237,6 +237,8 @@ in the voice changer like it was said previously will have to select it as outpu
 
 very very easy.
 
+You can refer to the Discord Settings section to see an image of what it would look like for any app you would want to use it on.
+
 # Noise Suppression
 Yes this removes the voice model speaking on its own, as long as you pick any option it will just work, the 4th one however only works in server mode, the rest work on Client and Server.
 
