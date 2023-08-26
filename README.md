@@ -22,37 +22,39 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 [Quick Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#tldr-tweak-afterwards-there-is-no-perfect-settings)
 
-[Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
+[Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings#virtual-cables)
 
-[What Version to Download](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#what-version-to-download)
+[What Version to Download](https://github.com/YunaOneeChan/Voice-Changer-Settings#what-version-to-download)
 
-[Starting Out](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#starting-out)
+[Updating](https://github.com/YunaOneeChan/Voice-Changer-Settings#updating)
 
-[Tune & Index Explanation](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#tune-and-index)
+[Starting Out](https://github.com/YunaOneeChan/Voice-Changer-Settings#starting-out)
 
-[Chunk, Extra, & F0](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#chunk-extra--f0)
+[Tune & Index Explanation](https://github.com/YunaOneeChan/Voice-Changer-Settings#tune-and-index)
 
-[Graphics Card Troubleshooting](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#graphics-card-not-showing-up-or-not-being-utilized)
+[Chunk, Extra, & F0](https://github.com/YunaOneeChan/Voice-Changer-Settings#chunk-extra--f0)
 
-[Audio](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audio)
+[Graphics Card Troubleshooting](https://github.com/YunaOneeChan/Voice-Changer-Settings#graphics-card-not-showing-up-or-not-being-utilized)
 
-[Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#advanced-settings)
+[Audio](https://github.com/YunaOneeChan/Voice-Changer-Settings#audio)
 
-[Audiodg Optimizations](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#audiodgexe-optimizations)
+[Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings)
 
-[Using Elsewhere](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#using-the-voicechanger-elsewhere)
+[Audiodg Optimizations](https://github.com/YunaOneeChan/Voice-Changer-Settings#audiodgexe-optimizations)
 
-[Noise Suppression](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#noise-suppression)
+[Using Elsewhere](https://github.com/YunaOneeChan/Voice-Changer-Settings#using-the-voicechanger-elsewhere)
 
-[Model Deletion & Updating](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#noise-suppression)
+[Noise Suppression](https://github.com/YunaOneeChan/Voice-Changer-Settings#noise-suppression)
 
-[Testing](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#testing)
+[Model Deletion & Updating](https://github.com/YunaOneeChan/Voice-Changer-Settings#noise-suppression)
 
-[Discord Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#discord-settings)
+[Testing](https://github.com/YunaOneeChan/Voice-Changer-Settings#testing)
 
-[Launching on Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#opening-on-mac)
+[Discord Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#discord-settings)
 
-[Undervolting for Gamers](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#the-gamers)
+[Launching on Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings#opening-on-mac)
+
+[Undervolting for Gamers](https://github.com/YunaOneeChan/Voice-Changer-Settings#the-gamers)
 
 # TLDR tweak afterwards, there is no "PERFECT" settings
 
@@ -123,6 +125,19 @@ note the directml version is EXPERIMENTAL, if it doesn't fully work that is why,
 C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) still better than running on old hardware by a long shot. Average 1 second of latency.
 
 D) MAC - [Version 13 Mac](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.13.zip) or [Version 12 Mac](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
+
+# Updating
+
+When updating delete everything EXCEPT the following
+
+* model_dir folder
+* your shortcut to start_http.bat
+* VBS script if you made it to have no cmd prompt appear.
+
+Just remember to change your extra, chunk, and audio settings back to one value higher than revert as sometimes it'll display the wrong values.
+
+Yes, this also includes the S.R. for server mode if you are using it.
+
 
 # Starting Out
 
@@ -229,7 +244,7 @@ if you get [ProcessLasso](https://bitsum.com) you can make the audiodg.exe setti
 # Using the voicechanger elsewhere
 To use on any other APP, your INPUT for that game or application will be
 
-Your [virtal audio cable](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#virtual-cables)
+Your [virtal audio cable](https://github.com/YunaOneeChan/Voice-Changer-Settings#virtual-cables)
 
 your output device does not change at all it stays your normal headphones or speakers
 
