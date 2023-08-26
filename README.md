@@ -60,14 +60,14 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 Gain is personal preference but lowering input also reduces any extra background noise leakage that you may happen to have even with a Noise Suppressed Mic.
 
-Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE, you can now ignore CREPE_FULL in it's entirety. 
+Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety. 
 
 NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
 ![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
 
 
-AMD/INTEL: f0-CREPE_TINY/RMVPE,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
+AMD/INTEL: f0-CREPE_TINY/RMVPE_ONNX,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
 
 ![Amd/Intel](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png)
 
