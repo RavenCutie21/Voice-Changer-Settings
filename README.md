@@ -1,9 +1,11 @@
 # A guide for [W-Okada's RealTimeVoiceChangerClient](https://github.com/w-okada/voice-changer/blob/master/README_en.md) and an overview of it's Settings
 This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
-No hard feeling to anyone, this guide will still be maintained for the most part, at least with downloads links for the foreseeable future. You are free to DM me at any point by clicking my name above.
+Anyone CAN DM me by clicking my name to be direct linked to my discord account; 
 
-Have a wonderful day, if I find anything new it will just be added like normal #SchizoOut
+@YunaOneeChan
+
+If you have any new information specifically Mac based ones, I.E. settings that have worked for you, please dm me so it can be added to the guide, so we can all have something that works together.
 
 # Other Links
 [Original Guide](https://docs.google.com/document/d/11eofqJXiHiVsLt_JjCwHROt_0OSryPFb1toyDBuLoXc/edit ) I consider this as OUTDATED now, but it does have some useful things like how to set up Voicemeeters Virtual Cable.
