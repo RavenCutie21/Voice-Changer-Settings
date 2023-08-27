@@ -90,7 +90,9 @@ Colab WITH INDEX: f0-RMVPE_ONNX,Chunk 112 is the lowest you can go,Extra8192,Tun
 Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab, it's what you would run on a DUAL PC setup
 
 No Index
+
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_No_Index.png)
+
 Index
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_Index.png)
 
