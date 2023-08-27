@@ -87,7 +87,7 @@ Colab NO INDEX: f0-RMVPE_ONNX,Chunk 96 is the lowest you can go,Extra16384,Tune 
 
 Colab WITH INDEX: f0-RMVPE_ONNX,Chunk 112 is the lowest you can go,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0-1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
 
-Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab, it's what you would run on a DUAL PC setup
+Please follow the dark mode screenshot for [Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings), it's what you would run on a DUAL PC setup and Colab
 
 Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 
