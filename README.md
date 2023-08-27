@@ -93,7 +93,11 @@ Index
 
 M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
+If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete @YunaOneeChan
+
 ![Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Mac%20Settings.png)
+
+
 
 Input: Noise Suppressed Mic (ideally sonar or NVIDIA/AMD's noise suppression if CLIENT audio)
 
