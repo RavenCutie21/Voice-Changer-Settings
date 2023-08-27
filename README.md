@@ -62,41 +62,46 @@ Gain is personal preference but lowering input also reduces any extra background
 
 Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety. 
 
+* First Option / Section Option
+* Lowest - Highest
+* [ADVANCED SETTINGS](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings)
+
 NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
 ![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
 
 
-AMD/INTEL: f0-CREPE_TINY/RMVPE_ONNX,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
+AMD/INTEL: f0-RMVPE_ONNX/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
 
 ![Amd/Intel](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD%20and%20Intel%20GPU%20Settings.png)
 
 
-CPU: f0-Harvest/Dio,Chunk 448,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+CPU: f0-Dio/Harvest,Chunk 448,Extra4096-8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab: f0-CREPE_TINY,Chunk 192 is the lowest you can go, but do something safer like the screenshot below,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out. 
+Colab NO INDEX: f0-RMVPE_ONNX,Chunk 96 is the lowest you can go,Extra16384,Tune Voice dependant but range is -12 to +12,Index 0-1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
 
-Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab. They seem to work way better and it seems to be what you would run on a DUAL PC setup, just remember if its not working for you these are just what i got to work for me
+Colab WITH INDEX: f0-RMVPE_ONNX,Chunk 112 is the lowest you can go,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0-1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
 
-![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colabv2.png)
+Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab, it's what you would run on a DUAL PC setup
 
-M1 Mac(WIP Section): f0-Harvest, I assume RMVPE should be fine due to previous results,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
+![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_No_Index.png)
+![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_Index.png)
+
+M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
 ![Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Mac%20Settings.png)
 
-Input: Noise Suppressed Mic
+Input: Noise Suppressed Mic (ideally sonar or NVIDIA/AMD's noise suppression if CLIENT audio)
 
-Output: Virtual Cable
+Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT)
 
 Monitor: Headphones
 
-Monitor Gain 0.5
+Monitor Gain 0.5 (this is personal preference if you plan on monitoring to see if it's working, you would want something quieter so you don't get tripped up from hearing what you said repeated back)
 
-Passthru GREEN = WORKING VOICE CHANGER
-
-Passthru RED = NO MORE WORKING VOICE CHANGER
+Passthru GREEN for working voicechanger, Passthru RED for normal mic
 
 
 
