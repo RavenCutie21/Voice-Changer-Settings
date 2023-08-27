@@ -62,7 +62,8 @@ Gain is personal preference but lowering input also reduces any extra background
 
 Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety. 
 
-* First Option / Section Option
+quick explanation in dummy terms + quick link to advanced settings
+* First Option / Second Option
 * Lowest - Highest
 * [ADVANCED SETTINGS](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings)
 
