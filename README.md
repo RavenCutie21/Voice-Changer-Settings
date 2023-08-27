@@ -63,6 +63,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 Gain is personal preference but lowering input also reduces any extra background noise leakage that you may happen to have even with a Noise Suppressed Mic.
 
 ~~Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety.~~
+
 RMVPE_ONNX seems to just be the best option for everything I have tried so far. Try it yourself. NVIDIA can ignore it, but it has enabled even lower chunk access so still, try it.
 
 quick explanation in dummy terms + quick link to advanced settings
