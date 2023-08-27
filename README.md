@@ -89,11 +89,9 @@ Colab WITH INDEX: f0-RMVPE_ONNX,Chunk 112 is the lowest you can go,Extra8192,Tun
 
 Please follow the dark mode screenshot of advanced settings in the Advanced Settings tab, it's what you would run on a DUAL PC setup
 
-No Index
+Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_No_Index.png)
-
-Index
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_Index.png)
 
 M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
