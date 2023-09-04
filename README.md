@@ -110,15 +110,19 @@ M2 Max Mac (also wip): f0-RMVPE/RMVPE_ONNX/CREPE_TINY, Chunk 256, Extra 65536, m
 
 ![Mac2](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/m2max%20mac.png)
 
-Input: Noise Suppressed Mic (ideally sonar or NVIDIA/AMD's noise suppression if CLIENT audio)
+Voice changer itself settings for audio
 
-Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT)
-
-Monitor: Headphones
-
-Monitor Gain 0.5 (this is personal preference if you plan on monitoring to see if it's working, you would want something quieter so you don't get tripped up from hearing what you said repeated back)
+* Input: Noise Suppressed Mic (ideally sonar or NVIDIA/AMD's noise suppression if CLIENT audio)
+* Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT)
+* Monitor: Headphones
+* Monitor Gain 0.5 (this is personal preference if you plan on monitoring to see if it's working, you would want something quieter so you don't get tripped up from hearing what you said repeated back)
 
 Passthru GREEN for working voicechanger, Passthru RED for normal mic
+
+Anywhere else that you want to use the voice changer 
+
+* Input: Virtual Cable, on some older games you may need to set your default in the windows sound settings to be the virtual cable, like TF2 for example.
+* Output: your headphones.
 
 
 
