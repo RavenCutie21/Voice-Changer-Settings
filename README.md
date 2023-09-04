@@ -71,23 +71,25 @@ quick explanation in dummy terms + quick link to advanced settings
 * Lowest - Highest
 * [ADVANCED SETTINGS](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings)
 
-NVIDIA: f0-RMVPE/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+Tune Voice dependant but range is usually -12 to +12, Index 0 is ideal until bug is fixed with 3-5x cpu usage, You don't have to touch gain stuff, but try aiming for your normal mic in OBS to be in the range of -23db to -10db when talking normally, if its not then raise gain a bit in the voice changer. you dont need to crank it at all. 
+
+NVIDIA: f0-RMVPE/CREPE_TINY, Chunk 112, Extra4096-16384, Model type any
 
 ![Nvidia](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Nvidia%20Settings.png)
 
 
-AMD/INTEL: f0-RMVPE_ONNX/CREPE_TINY,Chunk 112,Extra4096-16384,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type ONNX
+AMD/INTEL: f0-RMVPE_ONNX/CREPE_TINY,Chunk 112,Extra4096-16384, Model type ONNX
 
 ![Amd/Intel ARC](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/AMD_ARC_Settings.png)
 
 
-CPU: f0-Dio/Harvest,Chunk 448,Extra4096-8192,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type any
+CPU: f0-Dio/Harvest, Chunk 448, Extra4096-8192, Model type any
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab NO INDEX: f0-RMVPE_ONNX,Chunk 96 is the lowest you can go,Extra16384,Tune Voice dependant but range is -12 to +12,Index 0-1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
+Colab NO INDEX: f0-RMVPE_ONNX, Chunk 96 is the lowest you can go,Extra16384, Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
 
-Colab WITH INDEX: f0-RMVPE_ONNX,Chunk 112 is the lowest you can go,Extra8192,Tune Voice dependant but range is -12 to +12,Index 0-1,Gain In0.7 Out1.4,Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
+Colab WITH INDEX: f0-RMVPE_ONNX, Chunk 112 is the lowest you can go, Extra8192, Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
 
 Please follow the dark mode screenshot for [Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings), it's what you would run on a DUAL PC setup and Colab
 
@@ -96,13 +98,15 @@ Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_No_Index.png)
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_Index.png)
 
-M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY,Chunk 448,Extra 131072 maybe 65536,Tune Voice dependant but range is -12 to +12,Index 0 or 1,Gain In0.7 Out1.4,Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
+M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY, Chunk 448,Extra 131072 maybe 65536, Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
 If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete @YunaOneeChan
 
 ![Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Mac%20Settings.png)
 
+M2 Max Mac (also wip): f0-RMVPE/RMVPE_ONNX/CREPE_TINY, Chunk 256, Extra 65536, model type PTH
 
+![Mac2](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/m2max%20mac.png)
 
 Input: Noise Suppressed Mic (ideally sonar or NVIDIA/AMD's noise suppression if CLIENT audio)
 
