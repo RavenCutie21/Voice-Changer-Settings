@@ -3,7 +3,7 @@ This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
 
 Anyone CAN DM me by clicking my name to be direct linked to my discord account; 
 
-@YunaOneeChan
+[@YunaOneeChan](https://discord.com/users/824922747423031359)
 
 If you have any new information specifically Mac based ones, I.E. settings that have worked for you, please dm me so it can be added to the guide, so we can all have something that works together.
 
@@ -103,7 +103,7 @@ Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 
 M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY, Chunk 448,Extra 131072 maybe 65536, Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
-If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete @YunaOneeChan
+If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete [@YunaOneeChan](https://discord.com/users/824922747423031359)
 
 ![Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Mac%20Settings.png)
 
