@@ -58,9 +58,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 [Undervolting for Gamers](https://github.com/YunaOneeChan/Voice-Changer-Settings#the-gamers)
 
-# TLDR tweak afterwards, there is no "PERFECT" settings
-
-Gain is personal preference but lowering input also reduces any extra background noise leakage that you may happen to have even with a Noise Suppressed Mic.
+# TLDR there are no "PERFECT" settings
 
 ~~Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety.~~
 
@@ -71,7 +69,7 @@ quick explanation in dummy terms + quick link to advanced settings
 * Lowest - Highest
 * [ADVANCED SETTINGS](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings)
 
-Tune Voice dependant but range is usually -12 to +12, Index 0 is ideal until bug is fixed with 3-5x cpu usage, You don't have to touch gain stuff, but try aiming for your normal mic in OBS to be in the range of -23db to -10db when talking normally, if its not then raise gain a bit in the voice changer. you dont need to crank it at all. 
+Tune is Voice dependant but range is usually -12 to +12, Index 0 is ideal until bug is fixed with 3-5x cpu usage, You don't have to touch gain stuff, but try aiming for your normal mic in OBS to be in the range of -23db to -10db when talking normally, if its not then raise gain a bit in the voice changer. you dont need to crank it at all the way up. 
 
 NVIDIA: f0-RMVPE/CREPE_TINY, Chunk 112, Extra4096-16384, Model type any
 
