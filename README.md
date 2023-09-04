@@ -69,7 +69,10 @@ quick explanation in dummy terms + quick link to advanced settings
 * Lowest - Highest
 * [ADVANCED SETTINGS](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings)
 
-Tune is Voice dependant but range is usually -12 to +12, Index 0 is ideal until bug is fixed with 3-5x cpu usage, You don't have to touch gain stuff, but try aiming for your normal mic in OBS to be in the range of -23db to -10db when talking normally, if its not then raise gain a bit in the voice changer. you dont need to crank it at all the way up. 
+Same for everyone
+* Tune is Voice dependant but range is usually -12 to +12
+* Index 0 is ideal until bug is fixed with 3-5x cpu usage, 
+* You don't have to touch gain stuff, but try aiming for your normal mic in OBS to be in the range of -23db to -10db when talking normally, if its not then raise gain a bit in the voice changer. you dont need to crank it at all the way up. If it is, and you are bleeding a bit of noise still even after noise suppression do 0.7in and 1.4out. 98% of normal volume but should remove the rest of the noise
 
 NVIDIA: f0-RMVPE/CREPE_TINY, Chunk 112, Extra4096-16384, Model type any
 
