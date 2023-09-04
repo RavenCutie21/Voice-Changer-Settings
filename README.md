@@ -64,7 +64,7 @@ Gain is personal preference but lowering input also reduces any extra background
 
 ~~Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety.~~
 
-RMVPE_ONNX seems to just be the best option for everything I have tried so far. Try it yourself. NVIDIA can ignore it, but it has enabled even lower chunk access so still, try it. CREPE_TINY is just your fallback now if both RMVPE versions are causing issues for almost all cases (untested on MAC, and CPU users I would honestly just use colab there is no reason not to anymore)
+RMVPE_ONNX seems to just be the best option for everything I have tried so far. Try it yourself. but it does seem to have slightly lower accuracy, but you can use lower chunks on everything CREPE_TINY is just your fallback now if both RMVPE versions are causing issues for almost all cases (untested on MAC, and CPU users I would honestly just use colab there is no reason not to anymore, delay is very reasonable at about 1.2 seconds)
 
 quick explanation in dummy terms + quick link to advanced settings
 * First Option / Second Option
