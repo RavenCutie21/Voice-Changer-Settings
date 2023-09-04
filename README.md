@@ -125,6 +125,12 @@ Anywhere else that you want to use the voice changer
 * Input: Virtual Cable, on some older games you may need to set your default in the windows sound settings to be the virtual cable, like TF2 for example.
 * Output: your headphones.
 
+If your audio is crackling everywhere refer to : [Audiodg Optimizations](https://github.com/YunaOneeChan/Voice-Changer-Settings#audiodgexe-optimizations)
+
+If your auddio is only crackling in discord refer to : [Discord Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#discord-settings)
+
+If you use Client Mode, Sup2 is realistically the only thing needed as long as your S.Threshhold is something reasonable like 0.0025
+
 
 
 # Virtual Cables
