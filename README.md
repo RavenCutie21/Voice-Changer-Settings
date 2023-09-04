@@ -87,9 +87,11 @@ CPU: f0-Dio/Harvest, Chunk 448, Extra4096-8192, Model type any
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab NO INDEX: f0-RMVPE_ONNX, Chunk 96 is the lowest you can go,Extra16384, Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
+Colab NO INDEX: f0-RMVPE_ONNX, Chunk 96 is the lowest you can go,Extra16384, Model type PTH
 
-Colab WITH INDEX: f0-RMVPE_ONNX, Chunk 112 is the lowest you can go, Extra8192, Model type PTH, no idea why ONNX is performing worse for me but you can try it out yourself. 
+Colab WITH INDEX: Chunk 112 is the lowest you can go, Extra8192
+
+no idea why ONNX is performing worse for me but you can try it out yourself.
 
 Please follow the dark mode screenshot for [Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings), it's what you would run on a DUAL PC setup and Colab
 
