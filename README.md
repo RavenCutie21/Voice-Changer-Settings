@@ -22,7 +22,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 # Quick Navigation click any blue text to jump
 
-[Quick Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#tldr-tweak-afterwards-there-is-no-perfect-settings)
+[Quick Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings/tree/main#tldr-there-are-no-perfect-settings)
 
 [Virtual Cables](https://github.com/YunaOneeChan/Voice-Changer-Settings#virtual-cables)
 
