@@ -130,7 +130,6 @@ Server
 * Monitor Gain 0.3 (this is personal preference)
 
 
-Passthru GREEN for working voicechanger, Passthru RED for normal mic
 
 Anywhere else that you want to use the voice changer 
 
@@ -141,8 +140,8 @@ If your audio is crackling everywhere refer to : [Audiodg Optimizations](https:/
 
 If your audio is only crackling in discord refer to : [Discord Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#discord-settings)
 
-If you use Client Mode, Sup2 is realistically the only thing needed as long as your S.Threshhold is something reasonable like 0.0025
 
+Passthru GREEN for working voicechanger, Passthru RED for normal mic
 
 
 # Virtual Cables
