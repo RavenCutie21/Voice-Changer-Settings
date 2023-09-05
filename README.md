@@ -113,10 +113,19 @@ M2 Max Mac (also wip): f0-RMVPE/RMVPE_ONNX/CREPE_TINY, Chunk 256, Extra 65536, m
 
 Voice changer itself settings for audio
 
-* Input: Noise Suppressed Mic (ideally sonar or NVIDIA/AMD's noise suppression if CLIENT audio)
+CLIENT:
+* Input: Your Microphone
 * Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT)
 * Monitor: Headphones
-* Monitor Gain 0.5 (this is personal preference if you plan on monitoring to see if it's working, you would want something quieter so you don't get tripped up from hearing what you said repeated back)
+* Monitor Gain 0.3 (this is personal preference)
+
+Server
+* S.R. match this to your windows sample rate otherwise no audio gets produced (if Sonar its 48000)
+* Input: Your Noise Supressed Microphone (Windows WASAPI Steelseries Sonar Mic) (MME Broadcast or MME AMD mic)
+* Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT) (match with driver from above
+* Monitor: Headphones (match with driver from above again, if using sonar, use CHAT here)
+* Monitor Gain 0.3 (this is personal preference)
+
 
 Passthru GREEN for working voicechanger, Passthru RED for normal mic
 
