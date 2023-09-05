@@ -118,6 +118,9 @@ CLIENT:
 * Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT)
 * Monitor: Headphones
 * Monitor Gain 0.3 (this is personal preference)
+* feel free to turn on SUP2 box above if you do have a little background noise, sup1 and echo don't need to be used at all, sup2 is just better:tm:
+* set your S. Threshhold to be something low 1/4th of the bar is fine.
+
 
 Server
 * S.R. match this to your windows sample rate otherwise no audio gets produced (if Sonar its 48000)
