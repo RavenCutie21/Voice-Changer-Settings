@@ -170,7 +170,7 @@ C) [Colab version](https://colab.research.google.com/github/w-okada/voice-change
 
 D) MAC - [Version 13 Mac](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.13.zip) or [Version 12 Mac](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
-Mac users please DM if you find any better settings, as I only found one person with one so far and that was his.
+E) Intel Mac users - unsupported refer to C
 
 # Updating
 
