@@ -160,7 +160,7 @@ If you don't have at least 4gb of VRAM I would highly recommend just going with 
 
 The First Link of all sections will be the LATEST STABLE, the second link will be if the first is buggy for you
 
-A) NVIDIA/CPU - [Version 13 latest](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.13.zip) or [Version 12 stable](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12.zip)
+A) NVIDIA/CPU - [Version 13 gpu-cuda](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.13.zip) or [Version 12 gpu-cuda](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxgpu-cuda_v.1.5.3.12.zip)
 
 B) AMD or INTEL ARC - [Version 13 directml](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.13.zip) or [Version 12 directml](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_win_onnxdirectML-cuda_v.1.5.3.12.zip)
 
