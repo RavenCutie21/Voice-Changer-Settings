@@ -60,7 +60,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 # TLDR there are no "PERFECT" settings
 
-My Settings with a 3070 are as follows : 0.7in gain, 2.5out gain, sup2 box checked, rmvpe, s.thresh 0.00025, 96 chunk, 16384 extra, client, sonar mic, line 1, sonar chat, 0.1gain for monitor, advanced REST, 0.2-0.8, 300 trancate, off silencefront, 0.5 protect, low rvc qual, skip passthru confirm no, with audiodg.exe stuff in its own section, below are what i recommend for everyone else.
+My Settings with a 3070 are as follows : 0.7in gain, 2.5out gain, sup2 box checked, rmvpe, s.thresh 0.00025, 96 chunk, 16384 extra, client, sonar mic, line 1, sonar chat, 0.1gain for monitor, advanced REST, 0.2-0.8, 300 trancate, off silencefront, 0.5 protect, low rvc qual, skip passthru confirm no, with audiodg.exe stuff in its own section, my audio peaks at -12db, below are what i recommend for everyone else.
 
 ~~Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety.~~
 
