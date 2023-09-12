@@ -1,9 +1,9 @@
 # A guide for [W-Okada's RealTimeVoiceChangerClient](https://github.com/w-okada/voice-changer/blob/master/README_en.md) and an overview of it's Settings
-This guide is written by: [Yuna](https://discord.com/users/824922747423031359)
+This guide is written by: [Mia](https://discord.com/users/824922747423031359)
 
 Anyone CAN DM me by clicking my name to be direct linked to my discord account; 
 
-[@YunaOneeChan](https://discord.com/users/824922747423031359)
+[@ravencutie21](https://discord.com/users/824922747423031359)
 
 If you have any new information specifically Mac based ones, I.E. settings that have worked for you, please dm me so it can be added to the guide, so we can all have something that works together.
 
@@ -28,7 +28,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 
 [What Version to Download](https://github.com/YunaOneeChan/Voice-Changer-Settings#what-version-to-download)
 
-[Updating](https://github.com/YunaOneeChan/Voice-Changer-Settings#updating)
+[Updating](https://github.com/OneeChan/Voice-Changer-Settings#updating)
 
 [Starting Out](https://github.com/YunaOneeChan/Voice-Changer-Settings#starting-out)
 
@@ -105,7 +105,7 @@ Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 
 M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY, Chunk 448,Extra 131072 maybe 65536, Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
-If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete [@YunaOneeChan](https://discord.com/users/824922747423031359)
+If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete [@ravencutie21](https://discord.com/users/824922747423031359)
 
 ![Mac](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Mac%20Settings.png)
 
