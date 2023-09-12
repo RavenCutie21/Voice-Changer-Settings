@@ -103,6 +103,10 @@ Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_No_Index.png)
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_Index.png)
 
+Kaggle P100 GPU : Chunk 48 is the lowest you can go if no index but 64 is preferred since you never need to change, Extra8192
+
+![Kaggle](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/kagglep100.png)
+
 M1 Mac(WIP Section): f0-Harvest/RMVPE_ONNX/CREPE_TINY, Chunk 448,Extra 131072 maybe 65536, Model type PTH, ONNX seems to have infinite res gaining bug as of August 17th, 2023.
 
 If you are a Mac user please ADD and DM me with what Mac you have and what settings you have got working so this can be complete [@ravencutie21](https://discord.com/users/824922747423031359)
