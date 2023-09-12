@@ -174,7 +174,7 @@ note the directml version is EXPERIMENTAL, if it doesn't fully work that is why,
 
 C1) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) EXTREMELY good now, 400ms of latency without index, comparable to using NVIDIA, if you added it to your Drive, you have to delete and the files it makes and redownload them to update as far as I can tell.
 
-C2) [Kaggle Version](https://www.kaggle.com/code/rafacasari/wokada-voice-changer) same as colab just somewhere else, havent tried everything yet.
+C2) [Kaggle Version](https://www.kaggle.com/code/rafacasari/wokada-voice-changer) same as colab just somewhere else, havent tried everything yet. Even better if you use P100, but same if you use T4's. P100 = 200ms of latency, T4 = 400ms due to different chunks.
 
 D) MAC - [Version 13 Mac](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.13.zip) or [Version 12 Mac](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
