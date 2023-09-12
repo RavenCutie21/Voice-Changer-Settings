@@ -103,6 +103,8 @@ Screenshots are, NOT Using Index TOP, Using Index BOTTOM
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_No_Index.png)
 ![Colab](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Colab_Index.png)
 
+Using Kaggle means you have 30 hours PER WEEK, of Gpu usage, it runs even when it is NOT being used, so remember to unselect it when you are done using it.
+
 Kaggle P100 GPU : f0-RMVPE_ONNX, Chunk 48 is the lowest you can go if no index but 64 is preferred since you never need to change, Extra8192, any model works
 
 ![Kaggle](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/kagglep100.png)
