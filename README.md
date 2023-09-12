@@ -90,9 +90,9 @@ CPU: f0-Dio/Harvest, Chunk 448, Extra4096-8192, Model type any
 
 ![CPUl](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/reCPU%20settings.png)
 
-Colab NO INDEX: f0-RMVPE_ONNX, Chunk 96 is the lowest you can go,Extra16384, Model type PTH
+Colab NO INDEX & Kaggle (t4) : f0-RMVPE_ONNX, Chunk 96 is the lowest you can go,Extra16384, Model type PTH
 
-Colab WITH INDEX: Chunk 112 is the lowest you can go, Extra8192
+Colab WITH INDEX & Kaggle (t4) : Chunk 112 is the lowest you can go, Extra8192
 
 no idea why ONNX is performing worse for me but you can try it out yourself.
 
@@ -168,7 +168,9 @@ B) AMD or INTEL ARC - [Version 13 directml](https://huggingface.co/wok000/vcclie
 
 note the directml version is EXPERIMENTAL, if it doesn't fully work that is why, just check if your GPU supports onnxruntime, if it does you are extremely likely to be able to use this.
 
-C) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) EXTREMELY good now, 400ms of latency without index, comparable to using NVIDIA, if you added it to your Drive, you have to delete and the files it makes and redownload them to update as far as I can tell.
+C1) [Colab version](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) EXTREMELY good now, 400ms of latency without index, comparable to using NVIDIA, if you added it to your Drive, you have to delete and the files it makes and redownload them to update as far as I can tell.
+
+C2) [Kaggle Version](https://www.kaggle.com/code/rafacasari/wokada-voice-changer) same as colab just somewhere else, havent tried everything yet.
 
 D) MAC - [Version 13 Mac](https://huggingface.co/wok000/vcclient000/resolve/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.13.zip) or [Version 12 Mac](https://huggingface.co/wok000/vcclient000/blob/main/MMVCServerSIO_mac_onnxcpu-nocuda_v.1.5.3.12.zip)
 
