@@ -75,6 +75,8 @@ Same for everyone
 * Tune is Voice dependant but range is usually -12 to +12
 * Index 0 is ideal until bug is fixed with 3-5x cpu usage, 
 * You don't have to touch gain stuff, but try aiming for your normal mic in OBS to be in the range of -23db to -10db when talking normally, if its not then raise gain a bit in the voice changer. you dont need to crank it at all the way up. If it is, and you are bleeding a bit of noise still even after noise suppression do 0.7in and 1.4out. 98% of normal volume but should remove the rest of the noise
+* You want to have this on an SSD or an NVME drive, you also want to have a good CPU as this is actually the main bottleneck after not having enough vram. if you are atleast 8gb of vram you are find to use this while playing games.
+* If you want this on another drive, use SYMLINK and put it on your C Drive so it doesn't error out.
 
 NVIDIA: f0-RMVPE/CREPE_TINY, Chunk 112, Extra4096-16384, Model type any
 
