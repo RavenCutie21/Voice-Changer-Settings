@@ -286,6 +286,8 @@ These are my Advanced Settings, feel free to copy them, but I really don't advis
 
 ![Screenshot2](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/Advancedv2.png)
 
+Silence front turned off for Dark Mode SS, it auto turns back on which is dumb, but thats how it is
+
 # Audiodg.exe Optimizations
 
 open task manager hit details
