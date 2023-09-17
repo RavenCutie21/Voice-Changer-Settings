@@ -1,5 +1,5 @@
 # A guide for [W-Okada's RealTimeVoiceChangerClient](https://github.com/w-okada/voice-changer/blob/master/README_en.md) and an overview of it's Settings
-This guide is written by: [Mia](https://discord.com/users/824922747423031359)
+This guide is written by: [Raven](https://discord.com/users/824922747423031359)
 
 Anyone CAN DM me by clicking my name to be direct linked to my discord account; 
 
