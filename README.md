@@ -61,10 +61,7 @@ Anything below this are just cool tech, I will not help with, you can create pos
 # TLDR there are no "PERFECT" settings
 
 My Settings with a 3070 are as follows : 0.7in gain, 2.5out gain, sup2 box checked, rmvpe, s.thresh 0.00025, 96 chunk, 16384 extra, client, sonar mic, line 1, sonar chat, 0.1gain for monitor, advanced REST, 0.2-0.8, 300 trancate, off silencefront, 0.5 protect, low rvc qual, skip passthru confirm no, with audiodg.exe stuff in its own section, my audio peaks at -12db, below are what i recommend for everyone else.
-
-~~Crepe_Tiny is the lightest good sounding one within 1% of dio so you can probably ignore but it stays for now, next best being RMVPE (onnx if AMD/IntelArc), you can now ignore CREPE_FULL in it's entirety.~~
-
-RMVPE_ONNX seems to just be the best option for everything I have tried so far. Try it yourself. but it does seem to have slightly lower accuracy, but you can use lower chunks on everything CREPE_TINY is just your fallback now if both RMVPE versions are causing issues for almost all cases (untested on MAC, and CPU users I would honestly just use colab there is no reason not to anymore, delay is very reasonable at about 1.2 seconds)
+* Just Use Client Mode, the only benefit server mode is slightly lower latency, client mode is just significantly easier to get set up
 
 quick explanation in dummy terms + quick link to advanced settings
 * First Option / Second Option
@@ -96,8 +93,6 @@ Colab NO INDEX & Kaggle (t4) : f0-RMVPE_ONNX, Chunk 96 is the lowest you can go,
 
 Colab WITH INDEX & Kaggle (t4) : Chunk 112 is the lowest you can go, Extra8192
 
-no idea why ONNX is performing worse for me but you can try it out yourself.
-
 Please follow the dark mode screenshot for [Advanced Settings](https://github.com/YunaOneeChan/Voice-Changer-Settings#advanced-settings), it's what you would run on a DUAL PC setup and Colab
 
 Screenshots are, NOT Using Index TOP, Using Index BOTTOM
@@ -121,7 +116,9 @@ M2 Max Mac (also wip): f0-RMVPE/RMVPE_ONNX/CREPE_TINY, Chunk 256, Extra 65536, m
 
 ![Mac2](https://github.com/YunaOneeChan/Voice-Changer-Settings/blob/main/Quick%20Settings%20Images/m2max%20mac.png)
 
-Voice changer itself settings for audio
+Voice changer settings for audio
+* Just use Client Mode it's far easier to set up, no think monke brain, but Server settings are listed as well if you do want the lower latency.
+
 
 CLIENT:
 * Input: Your Microphone
@@ -137,7 +134,7 @@ Server
 * Input: Your Noise Supressed Microphone (Windows WASAPI Steelseries Sonar Mic) (MME Broadcast or MME AMD mic)
 * Output: Virtual Cable (Line 1 or VB-Audio Virtual Cable INPUT) (match with driver from above
 * Monitor: Headphones (match with driver from above again, if using sonar, use CHAT here)
-* Monitor Gain 0.3 (this is personal preference)
+* Monitor Gain 0.2 (this is personal preference)
 
 
 
