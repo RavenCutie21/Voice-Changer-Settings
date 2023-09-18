@@ -150,6 +150,20 @@ If your audio is only crackling in discord refer to : [Discord Settings](https:/
 
 Passthru GREEN for working voicechanger, Passthru RED for normal mic
 
+### Don't use Okada's voice changer? No problem I'll quickly explain what to do and not to do on RVC's version of it.
+
+* Select your PTH and Index, you do not need to use ONNX at all here for anyone AFAIK. 
+* Choose your Input and Output device, use MME, as I could not get anything else to work for whatever reason, but it's fine as MME should work for everyone
+* Respone Threshhold, Set it to -60 all the way up to -50, everyone should trigger it at -60 with normal talking
+* Pitch settings, this is where you adjust based on your voice, find whatever you want
+* Wao an Index slider? That actually doesn't have a bug? Use whatever you like here.
+* Loudness factor, this is Gain Control, if you do not see it that's because you are using the old prebuilt binary from 0813, install it manually and you'll see it.
+* Sample Length this is similar to chunk in Okada's. Add a 0 to the end of whatever you pick and that's what it is in MS, play around with this while testing in audacity (when you adjust it you'll need to hit start conversion again)
+* Number of CPU processes can be skipped as you should be using RMVPE, but if you are a psycho you can use harvest and play around with this
+* Fade Length, I could not find out what this does, by default its on 0.04, or on the prebuilt its 0.15, so use that as a range and I guess figure out what you think sounds or works the best.
+* Extra Inference time, this is basically Extra, but it's also a fall back in case you randomly get a massive load on GPU, it'll be the maximum time it'll take, by Default its 2.00, What i picked is 3.45, and it's also what a lot of AMD users pick in the CN and JP communities
+* Input Noise Reduction, Please DO NOT use this, it seems to be bugged when building yourself and causes audio to slowly get quieter and quieter.
+* Output Noise Reduction on the other hand is actually fine to use if you want to, It really doesn't make a difference at the end of the day.
 
 # Virtual Cables
 
