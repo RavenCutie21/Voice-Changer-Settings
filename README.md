@@ -161,7 +161,7 @@ Passthru GREEN for working voicechanger, Passthru RED for normal mic
 * Sample Length this is similar to chunk in Okada's. Add a 0 to the end of whatever you pick and that's what it is in MS, play around with this while testing in audacity (when you adjust it you'll need to hit start conversion again)
 * Number of CPU processes can be skipped as you should be using RMVPE, but if you are a psycho you can use harvest and play around with this
 * Fade Length, I could not find out what this does, by default its on 0.04, or on the prebuilt its 0.15, so use that as a range and I guess figure out what you think sounds or works the best.
-* Extra Inference time, this is basically Extra, but it's also a fall back in case you randomly get a massive load on GPU, it'll be the maximum time it'll take, by Default its 2.00, What i picked is 3.45, and it's also what a lot of AMD users pick in the CN and JP communities
+* Extra Inference time, this is basically Extra, but it's also a fall back in case you randomly get a massive load on GPU, it'll be the maximum time it'll take, by Default its 2.00, What i picked is 3.45, and it's also what a lot of AMD users pick in the CN and JP communities, but generally if you have an old card like 1600series or older, use 2.00, if its newer than that 3.00 is fine.
 * Input Noise Reduction, Please DO NOT use this, it seems to be bugged when building yourself and causes audio to slowly get quieter and quieter.
 * Output Noise Reduction on the other hand is actually fine to use if you want to, It really doesn't make a difference at the end of the day.
 
