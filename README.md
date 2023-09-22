@@ -459,4 +459,43 @@ i do cap my fps anyways obviously if you are running unlimited there will be som
 
 https://github.com/YunaOneeChan/Sounding-Good-With-APO
 
-It's very basic currently and doesn't cover the actual EQ part of it, but it gives a general use template, with only two things you change yourself. One is for removing a ton of background noise, the other is the actual eq part as every voice is different.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Common GPU Chart for known working settings > WIP
+### these are not perfect, as it depends on what you are doing but should give you something that just works right away.
+If your GPU is not listed start with this if its a Newer Card aka released in the Last 4 years and has atleast 8gb of Vram
+Chunk: 96, Extra, 16384
+If you have less then 8gb of vram and your card is older than 4 years use this, 4gb is the minimum you should have.
+Chunk: 192, Extra 8192
+
+AMD
+500 series cards - 256+ Chunk 8192 Extra
+580 - 192+ Chunk 8192 Extra
+6xxx XT cards - 128+ Chunk 16384 Extra
+7xxx XT cards - 112+ Chunk 16384 Extra
+
+
+NVIDIA 8gb+
+Any 40 series card - 96+ Chunk 16384 Extra
+Any 30 series card - 96+ Chunk 16384 Extra
+Any 20 series card - 128+ Chunk 8192 Extra
+Any 10 series card - 128+ Chunk 8192 Extra
+Any 16 series card - 128+ Chunk 8192 Extra
+
+NVIDIA 4gb+
+256+ Chunk 8192 Extra
+
+Laptop Variant Cards, refer to the previous gen of desktop in the chart above.
